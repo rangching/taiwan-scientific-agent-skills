@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""本庫輕量結構檢查：目錄名＝frontmatter name、description_zh 存在、本地連結可解析。"""
+"""本庫輕量結構檢查：目錄名＝frontmatter name、metadata.description_zh 存在、本地連結可解析。
+
+注意：Agent Skills 規格限定 top-level 欄位為封閉集合，因此繁中摘要放在
+`metadata.description_zh`（字串），而非 top-level 自創欄位，否則
+`skills-ref validate` 與 tests/_meta 結構契約會報錯。
+"""
 import re
 import sys
 from pathlib import Path
@@ -31,8 +36,9 @@ def check_tree(base: str) -> int:
             FAIL.append(f'{base}/{d.name}: name 與目錄名不一致')
         if 'description:' not in front:
             FAIL.append(f'{base}/{d.name}: 缺 description')
-        if 'description_zh:' not in front:
-            FAIL.append(f'{base}/{d.name}: 缺 description_zh')
+        mm = re.search(r'^  description_zh: ', front, re.M)
+        if not mm:
+            FAIL.append(f'{base}/{d.name}: 缺 metadata.description_zh')
         # 本地連結檢查（references/、assets/、scripts/）；略過 url 佔位範例
         for link in re.findall(r'\]\(([^)http][^)]*)\)', text):
             if link.strip() == 'url':

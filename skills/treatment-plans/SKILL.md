@@ -1,10 +1,10 @@
 ---
 name: treatment-plans
 description: Format and structurally validate local treatment-plan documentation after clinical decisions have already been supplied and verified by authorized licensed professionals. Use for source traceability, clinician-authored intervention records, goals and checkpoints, shared-decision records, reconciliation handoffs, and release gates—not for clinical decision-making.
-description_zh: 合格專業人員已定治療決策的格式整理（非決策本身）。
 license: MIT
 compatibility: Python 3.11+ standard library; local JSON files only. Bundled CLIs require no network, external services, models, images, credentials, environment variables, or third-party packages.
 metadata:
+  description_zh: "合格專業人員已定治療決策的格式整理（非決策本身）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.2"

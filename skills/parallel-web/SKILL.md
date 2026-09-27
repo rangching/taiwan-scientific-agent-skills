@@ -1,10 +1,10 @@
 ---
 name: parallel-web
 description: "Use Parallel CLI for web search, URL extraction, deep research, structured data enrichment, entity discovery, and recurring web monitoring. Best for requests that explicitly need current web evidence, academic-source discovery, repeated entity lookups, exhaustive reports, or ongoing change tracking."
-description_zh: Parallel Web：平行網路檢索。
 license: MIT
 compatibility: Requires parallel-cli and internet access.
 metadata:
+  description_zh: "Parallel Web：平行網路檢索。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.3"

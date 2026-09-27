@@ -1,10 +1,10 @@
 ---
 name: dnanexus-integration
 description: Build and operate reproducible genomics workloads on DNAnexus with the dx CLI, dxpy, apps/applets, native workflows, dxCompiler, and Nextflow. Use for DNAnexus data transfers, dxapp.json development, execution monitoring, workflow import, and project automation.
-description_zh: DNAnexus 平台整合：基因體資料分析流程。
 license: MIT
 compatibility: Requires a DNAnexus account, network access, Python 3.11+, and dx-toolkit/dxpy; some workflow and infrastructure features require organization licenses or policies.
 metadata:
+  description_zh: "DNAnexus 平台整合：基因體資料分析流程。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.1"

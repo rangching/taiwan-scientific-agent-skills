@@ -1,9 +1,9 @@
 ---
 name: open-notebook
 description: Self-hosted, open-source alternative to Google NotebookLM for AI-powered research and document analysis. Use when organizing research materials into notebooks, ingesting diverse content sources (PDFs, videos, audio, web pages, Office documents), generating AI-powered notes and summaries, creating multi-speaker podcasts from research, chatting with documents using context-aware AI, searching across materials with full-text and vector search, or running custom content transformations. Supports 16+ AI providers including OpenAI, Anthropic, Google, Ollama, Groq, and Mistral with complete data privacy through self-hosting.
-description_zh: 開放實驗紀錄：研究筆記管理。
 license: MIT
 metadata:
+  description_zh: "開放實驗紀錄：研究筆記管理。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.3"

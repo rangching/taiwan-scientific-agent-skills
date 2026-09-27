@@ -1,7 +1,6 @@
 ---
 name: labarchive-integration
 description: Securely integrate with the official LabArchives ELN REST-like API and Inventory API v1. Use for regional endpoint selection, signed-request construction, user authorization and UID flows, local LA container validation, and verified LabArchives integration workflows.
-description_zh: LabArchives 整合：電子實驗紀錄範圍操作（寫入需授權）。
 license: MIT
 compatibility: >-
   Requires Python 3.11+ and uv for bundled local tools, plus network access for
@@ -10,6 +9,7 @@ compatibility: >-
   require Inventory API permission and a Lab ID. Bundled scripts read only named
   LABARCHIVES_* environment variables and never load .env files.
 metadata:
+  description_zh: "LabArchives 整合：電子實驗紀錄範圍操作（寫入需授權）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

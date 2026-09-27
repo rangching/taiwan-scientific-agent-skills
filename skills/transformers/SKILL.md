@@ -1,11 +1,11 @@
 ---
 name: transformers
 description: Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, and Trainer fine-tuning on NLP, vision, audio, and multimodal tasks. Use when working with AutoModel, pipelines, tokenizers, or TrainingArguments—not for general ML outside the Transformers library.
-description_zh: Transformer 模型：預訓練模型微調與推論。
 allowed-tools: Read Write Edit Bash
 license: Apache-2.0 license
 compatibility: Requires Python 3.10+, PyTorch 2.4+, and transformers 5.x. Gated or private Hub models need an HF token (`hf auth login` or `HF_TOKEN`).
 metadata:
+  description_zh: "Transformer 模型：預訓練模型微調與推論。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.3"

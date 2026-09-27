@@ -1,10 +1,10 @@
 ---
 name: scientific-brainstorming
 description: Facilitates evidence-aware scientific ideation with independent generation, structured discussion, explicit assumptions, transparent evaluation, adversarial review, and decision logs. Use for early-stage research brainstorming or prioritizing candidate directions; hand off empirical validation, study design, ethics or regulatory review, and clinical questions to appropriate experts or skills.
-description_zh: 科學腦力激盪：研究方向發想輔助。
 license: MIT
 compatibility: Core guidance works in any Agent Skills-compatible host. Optional bundled CLIs require Python 3.11+ and use only the standard library; they make no network or LLM calls and require no credentials.
 metadata:
+  description_zh: "科學腦力激盪：研究方向發想輔助。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

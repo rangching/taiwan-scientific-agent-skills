@@ -5,7 +5,7 @@
 > Derived from K-Dense Scientific Agent Skills, localized for Taiwan academia (zh-Hant-TW / English).
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE.md)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](plugin.json)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](plugin.json)
 
 ## 來源與致謝 Origin
 
@@ -13,13 +13,17 @@
 * 其中 `docx`、`pdf`、`pptx`、`xlsx` 四個 skills 系借用 Anthropic 作品，各目錄內 `LICENSE.txt` 保持原樣。
 * 本庫改作與臺灣新增內容同樣以 MIT 釋出。
 
-## 內容 Contents（v1.0.0：上游 166 全量＋台灣新增 3）
+## 內容 Contents（v1.1.0：上游 166 全量＋台灣新增 4＋完整 CI）
 
-* `skills/`：上游 166 個全數收錄（完整複製＋繁中導讀＋`description_zh`）。
-* `skills-tw/`：臺灣在地新增 3 個：
+* `skills/`：上游 166 個全數收錄（完整複製＋繁中導讀＋`metadata.description_zh`）。
+* `skills-tw/`：臺灣在地新增 4 個（見下）。
+* `tests/`＋`.github/workflows/`：移植上游結構契約測試與 `skills-ref` 驗證 CI，
+  每個 PR 自動檢查規格相容。
+* `skills-tw/`：臺灣在地新增 4 個：
   * `nstc-grant-writing`：國科會專題研究計畫書架構與查核表
   * `tw-research-ethics`：人體研究法、個資法、IRB/REC 送審流程導引（僅流程輔助）
   * `tw-scholar-search`：Airiti 華藝、博碩士論文系統、國家圖書館檢索流程
+  * `tw-compute-data`：TWCC、國網中心、校級 HPC 上機與 NHIRD 管制資料申請導引（僅流程輔助）
 
 首批 26 個：database-lookup、paper-lookup、scientific-writing、citation-management、
 exploratory-data-analysis、scientific-visualization、statsmodels、scikit-learn、
@@ -67,7 +71,7 @@ torchdrug、uncertainty-and-units、usfiscaldata、waypoint-bio、xlsx※。
 
 ## 雙語規範 Bilingual convention
 
-* frontmatter `description` 維持英文原文（確保 Agent 檢索相容），另加 `description_zh` 繁中摘要。
+* frontmatter `description` 維持英文原文（確保 Agent 檢索相容），繁中摘要放在 `metadata.description_zh`。
 * 內文標題雙語並列，段落繁中在前、英文原文保留在後；指令、參數、變數名維持英文。
 * 用詞見 `docs/翻譯規範.md`。
 

@@ -1,13 +1,11 @@
 ---
 name: biopython
 description: Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST automation. For quick lookups use gget; for multi-service integration use bioservices.
-description_zh: 序列分析：DNA／RNA／蛋白質序列、NCBI Entrez 存取。
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.10+, NumPy, and Biopython. Entrez and web BLAST examples require network access; local BLAST/MUSCLE examples require those command-line tools installed separately.
 license: Biopython License Agreement
 metadata:
-  zh-tw-added: "2026-09-28"
-  upstream: K-Dense-AI/scientific-agent-skills
+  description_zh: "序列分析：DNA／RNA／蛋白質序列、NCBI Entrez 存取。"
   version: "1.3"
   skill-author: K-Dense Inc.
   openclaw:
@@ -19,16 +17,7 @@ metadata:
       required: false
       description: NCBI API key to raise Entrez rate limits.
 ---
-> 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。
-
-## 繁中導讀 Zh-Hant Guide
-
-### 何時使用
-
-- 序列分析：DNA／RNA／蛋白質序列、NCBI Entrez 存取。
-- 詳細參數、工作流程與範例請見下方英文原文。
-
----
+> 繁中導讀：序列分析：DNA／RNA／蛋白質序列、NCBI Entrez 存取。詳見下方英文原文。（衍生自上游 K-Dense Scientific Agent Skills，MIT 授權，原文完整保留。）
 
 # Biopython: Computational Molecular Biology in Python
 

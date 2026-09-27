@@ -1,9 +1,9 @@
 ---
 name: latex-posters
 description: "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication."
-description_zh: LaTeX 學術海報製作。
 allowed-tools: Read Write Edit Bash
 metadata:
+  description_zh: "LaTeX 學術海報製作。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.7"

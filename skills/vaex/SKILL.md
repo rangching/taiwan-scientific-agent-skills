@@ -1,10 +1,10 @@
 ---
 name: vaex
 description: Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that do not fit in memory.
-description_zh: 超大型表格資料視覺化與處理（out-of-core）。
 allowed-tools: Read Write Edit Bash Grep Glob
 license: MIT license
 metadata:
+  description_zh: "超大型表格資料視覺化與處理（out-of-core）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.1"

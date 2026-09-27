@@ -1,10 +1,10 @@
 ---
 name: scientific-schematics
 description: Create publication-quality scientific diagrams using Nano Banana 2 AI with smart iterative refinement. Uses Gemini 3.6 Flash for quality review. Only regenerates if quality is below threshold for your document type. Specialized in neural network architectures, system diagrams, flowcharts, biological pathways, and complex scientific visualizations.
-description_zh: 科學示意圖繪製：實驗流程圖。
 allowed-tools: Read Write Edit Bash
 license: MIT license
 metadata:
+  description_zh: "科學示意圖繪製：實驗流程圖。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.7"

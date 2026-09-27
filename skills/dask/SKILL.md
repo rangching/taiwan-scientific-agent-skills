@@ -1,27 +1,15 @@
 ---
 name: dask
 description: Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core analytics on single machine use vaex; for in-memory speed use polars.
-description_zh: 平行與 out-of-core 運算：大型資料分散式處理。
 allowed-tools: Read Write Edit Bash
 license: BSD-3-Clause license
 compatibility: Requires Python 3.10+ and dask 2025.1+. DataFrame workflows need pandas 2+ and PyArrow 16+. Cloud paths (s3://, gcs://) need s3fs or gcsfs. Cluster deployment uses dask.distributed (included with dask[complete]).
 metadata:
-  zh-tw-added: "2026-09-28"
-  upstream: K-Dense-AI/scientific-agent-skills
+  description_zh: "平行與 out-of-core 運算：大型資料分散式處理。"
   version: "1.2"
   skill-author: K-Dense Inc.
 ---
-> 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。
-
-## 繁中導讀 Zh-Hant Guide
-
-### 何時使用
-
-- 平行與 out-of-core 運算：大型資料分散式處理。
-- 詳細參數、工作流程與範例請見下方英文原文。
-
----
-
+> 繁中導讀：平行與 out-of-core 運算：大型資料分散式處理。詳見下方英文原文。（衍生自上游 K-Dense Scientific Agent Skills，MIT 授權，原文完整保留。）
 # Dask
 
 ## Overview

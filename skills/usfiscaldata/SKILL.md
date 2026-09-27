@@ -1,10 +1,10 @@
 ---
 name: usfiscaldata
 description: Query the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use for national debt (Debt to the Penny), Daily Treasury Statements, Monthly Treasury Statements, Treasury securities auctions, interest rates, foreign exchange rates, savings bonds, or U.S. government revenue and spending statistics.
-description_zh: 美國財政資料：Treasury Fiscal Data 查詢。
 license: MIT
 allowed-tools: Read Write Edit Bash
 metadata:
+  description_zh: "美國財政資料：Treasury Fiscal Data 查詢。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.3"

@@ -1,9 +1,9 @@
 ---
 name: infographics
 description: "Create professional infographics using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3.6 Flash for quality review. Integrates research-lookup and web search for accurate data. Supports 10 infographic types, 8 industry styles, and colorblind-safe palettes."
-description_zh: 科學資訊圖表：研究亮點視覺化。
 allowed-tools: Read Write Edit Bash
 metadata:
+  description_zh: "科學資訊圖表：研究亮點視覺化。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.7"

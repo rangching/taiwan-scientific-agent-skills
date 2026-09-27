@@ -1,11 +1,11 @@
 ---
 name: scholar-evaluation
 description: Provide qualitative-first, evidence-traceable developmental review of scholarly works and audit low-stakes research-assessment rubrics with optional local quality controls. Never use for ranking people or consequential decisions.
-description_zh: 學術著作低風險質性評估輔助（非升等決定）。
 license: MIT
 compatibility: Requires Python 3.11+ for optional bundled standard-library CLIs. All tooling is local JSON/CSV processing with no network, credentials, external models, or subprocesses.
 allowed-tools: Read Write Bash Glob Python
 metadata:
+  description_zh: "學術著作低風險質性評估輔助（非升等決定）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.2"

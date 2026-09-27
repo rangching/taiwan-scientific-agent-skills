@@ -1,10 +1,10 @@
 ---
 name: hypothesis-generation
 description: Formulate evidence-bounded scientific questions, candidate hypotheses, rival explanations, causal or associational claims, discriminating predictions, measurements, and preregistration-ready analysis plans. Use when turning observations or preliminary findings into transparent, testable research plans without treating hypotheses as facts.
-description_zh: 證據限定的候選假說生成，研究發想輔助。
 license: MIT
 compatibility: Python 3.11+ standard library. Bundled CLIs are deterministic and local-only; they accept bounded JSON, CSV, or Markdown and require no network, credentials, models, image services, or external packages.
 metadata:
+  description_zh: "證據限定的候選假說生成，研究發想輔助。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.2"

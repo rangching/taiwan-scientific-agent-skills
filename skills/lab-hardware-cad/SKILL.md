@@ -1,11 +1,11 @@
 ---
 name: lab-hardware-cad
 description: Design custom laboratory hardware as parametric build123d models and export fabrication-ready STEP, STL, and DXF files - microfluidic chips and molds, optomechanical mounts and breadboard adapters, cuvette and microplate holders, tube racks, animal-behavior rigs, and 3D-printed instrument fixtures. Use when a research task needs a physical part that must mate with standardized labware, an optical table, a cage system, or a printer, CNC, or laser process.
-description_zh: 實驗硬體 CAD：開放硬體設計流程。
 license: MIT
 compatibility: Python 3.10-3.14 with build123d 0.11.1 and matplotlib for snapshots. Geometry commands require build123d; the standards lookup and the interface check run on the standard library alone. No network access needed.
 allowed-tools: Read Write Edit Bash Glob Grep
 metadata:
+  description_zh: "實驗硬體 CAD：開放硬體設計流程。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.3"

@@ -1,11 +1,11 @@
 ---
 name: shap
 description: Explain and audit machine-learning predictions with SHAP. Use for selecting SHAP explainers and maskers, computing and validating feature attributions, handling multi-output explanations, and producing local or global SHAP visualizations.
-description_zh: 模型可解釋性：SHAP 特徵貢獻分析。
 license: MIT
 compatibility: Requires Python 3.12+ and uv for SHAP 0.52.0; model-specific libraries are optional.
 allowed-tools: "Read Bash"
 metadata:
+  description_zh: "模型可解釋性：SHAP 特徵貢獻分析。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.1"

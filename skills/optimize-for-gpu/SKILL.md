@@ -1,10 +1,10 @@
 ---
 name: optimize-for-gpu
 description: GPU-accelerates scientific Python on NVIDIA hardware and verifies that the result is correct and faster. Use for CUDA/GPU optimization; CPU-bound NumPy, SciPy, pandas, scikit-learn, NetworkX, scikit-image, vector-search, image-processing, graph, simulation, or file-I/O workloads; CuPy, cuDF, cuML, cuGraph, cuVS, cuCIM, KvikIO, Warp, Newton, Numba-CUDA, or RAFT questions; and profiling, memory-transfer, kernel, or multi-GPU bottlenecks. Also use when large data-parallel Python code is slow and GPU acceleration is a plausible option, even if the user does not name CUDA.
-description_zh: GPU 優化：科學計算加速設定。
 license: MIT
 compatibility: Requires an NVIDIA CUDA-capable GPU for GPU execution. RAPIDS 26.06 requires Python 3.11+ on Linux or WSL2 and matching CUDA 12 or 13 wheels. Package installation needs network access.
 metadata:
+  description_zh: "GPU 優化：科學計算加速設定。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.4"

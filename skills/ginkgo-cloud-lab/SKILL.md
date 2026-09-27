@@ -1,10 +1,10 @@
 ---
 name: ginkgo-cloud-lab
 description: Submit and manage protocols on Ginkgo Bioworks Cloud Lab (cloud.ginkgo.bio), a web-based interface for autonomous lab execution on Reconfigurable Automation Carts (RACs). Use when the user wants to run protein expression and purification (cell-free, E. coli, or Pichia), HiBiT or A280 or LabChip quantification, IVT mRNA/circRNA synthesis, thermal shift / developability assays, Echo-MS enzyme or analyte methods, SPR target onboarding, fluorescent pixel art, or otherwise interact with Ginkgo Cloud Lab services. Covers protocol selection, input preparation, pricing, and ordering workflows.
-description_zh: Ginkgo 雲端實驗室：委外實驗流程介接。
 license: MIT license
 allowed-tools: Read
 metadata:
+  description_zh: "Ginkgo 雲端實驗室：委外實驗流程介接。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.1"

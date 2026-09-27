@@ -1,4 +1,4 @@
-# Skills 索引（v1.0.0：上游 166 全量＋台灣新增 3）
+# Skills 索引（v1.1.0：上游 166 全量＋台灣新增 4）
 
 ## 上游移植（skills/，中英雙語，英文原文保留）
 
@@ -200,5 +200,6 @@
 | nstc-grant-writing | 國科會計畫書架構與查核表 |
 | tw-research-ethics | 研究倫理送審導引（僅流程輔助） |
 | tw-scholar-search | 中文文獻檢索導引 |
+| tw-compute-data | 運算資源與管制資料申請導引（僅流程輔助） |
 
 其餘上游 skills（至 166）分批補齊中，見 README 上游同步說明。

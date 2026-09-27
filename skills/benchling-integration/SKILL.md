@@ -1,11 +1,11 @@
 ---
 name: benchling-integration
 description: Benchling Python SDK and REST API integration for registry entities, inventory, ELN entries, workflows, Benchling Apps, and Data Warehouse queries. Use when automating lab data with benchling-sdk or the v2 API.
-description_zh: Benchling 整合：LIMS／ELN 範圍操作（寫入需明確授權）。
 license: MIT
 allowed-tools: Read Write Edit Bash
 compatibility: Requires a Benchling account, tenant URL, and API key or OAuth app credentials. Install benchling-sdk with uv pip install.
 metadata:
+  description_zh: "Benchling 整合：LIMS／ELN 範圍操作（寫入需明確授權）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.5"

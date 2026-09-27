@@ -1,9 +1,9 @@
 ---
 name: statistical-analysis
 description: Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted reporting. Use whenever a user wants to compare groups, test a hypothesis, analyze experimental or survey data, check statistical assumptions, compute required sample sizes, or write up results - even if they never name a specific test. Covers t-tests, ANOVA, chi-square, correlation, regression, non-parametric and Bayesian methods. For low-level model APIs, see the statsmodels and pymc skills.
-description_zh: 統計分析流程：檢定選擇、前提查核、結果報導。
 license: MIT license
 metadata:
+  description_zh: "統計分析流程：檢定選擇、前提查核、結果報導。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

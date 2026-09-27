@@ -1,9 +1,9 @@
 ---
 name: paperzilla
 description: Chat with your agent about projects, recommendations, and canonical papers in Paperzilla. Use when users ask for recent project recommendations, canonical paper details, markdown-based summaries, recommendation feedback, feed export, or Atom feed URLs.
-description_zh: 論文搜尋與追蹤：文獻發現與監控。
 license: MIT
 metadata:
+  description_zh: "論文搜尋與追蹤：文獻發現與監控。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.0"

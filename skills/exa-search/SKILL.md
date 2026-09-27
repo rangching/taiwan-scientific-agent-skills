@@ -1,10 +1,10 @@
 ---
 name: exa-search
 description: "Web toolkit powered by Exa, tuned for scientific and technical content. Use this skill when the user needs to search the web or fetch/extract URL content. Covers: web search (semantic lookups, research, current info — with optional research-paper category and academic domain filtering) and URL extraction (fetching pages, articles, academic PDFs in batch). Use this skill for web-related tasks when the user wants high-quality search or scholarly filtering via category=research paper. Triggers on requests to search, look up, fetch a page, or extract an article."
-description_zh: Exa AI 搜尋：網路與學術即時檢索。
 compatibility: Requires exa-py Python SDK, an EXA_API_KEY, and internet access.
 license: MIT
 metadata:
+  description_zh: "Exa AI 搜尋：網路與學術即時檢索。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

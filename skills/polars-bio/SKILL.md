@@ -1,11 +1,11 @@
 ---
 name: polars-bio
 description: High-performance genomic interval operations and bioinformatics file I/O on Polars DataFrames. Overlap, nearest, merge, coverage, complement, subtract for BED/VCF/BAM/GFF intervals. Streaming, cloud-native, faster bioframe alternative.
-description_zh: 基因體區間資料的 Polars 高速處理流程。
 license: Apache-2.0
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.11–3.14 and polars-bio (uv pip install). Cloud I/O uses standard AWS/GCS/Azure SDK env vars when paths use s3://, gs://, or az:// URIs.
 metadata:
+  description_zh: "基因體區間資料的 Polars 高速處理流程。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.1"

@@ -1,9 +1,9 @@
 ---
 name: pdf
 description: Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.
-description_zh: PDF 文件處理（本體為 Anthropic 借用作品，LICENSE.txt 保持原樣）。
 license: Proprietary. LICENSE.txt has complete terms
 metadata:
+  description_zh: "PDF 文件處理（本體為 Anthropic 借用作品，LICENSE.txt 保持原樣）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

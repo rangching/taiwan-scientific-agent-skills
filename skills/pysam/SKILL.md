@@ -1,11 +1,11 @@
 ---
 name: pysam
 description: Python/HTSlib workflows for genomic files. Use when reading, querying, filtering, or writing SAM/BAM/CRAM, VCF/BCF, FASTA/FASTQ, or tabix data with pysam, including pileup, coverage, indexing, and CRAM references.
-description_zh: VCF／BAM／SAM 檔案解析，變異資料前處理。
 license: MIT
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.8–3.14 and pysam 0.24.0. Bundled scripts use local files. CRAM decoding may require the matching reference FASTA or an explicitly configured REF_PATH/REF_CACHE.
 metadata:
+  description_zh: "VCF／BAM／SAM 檔案解析，變異資料前處理。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.1"

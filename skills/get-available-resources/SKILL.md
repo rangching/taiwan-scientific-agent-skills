@@ -1,10 +1,10 @@
 ---
 name: get-available-resources
 description: Detect host inventory and effective CPU, memory, disk, scheduler, container, and accelerator limits when a user asks for resource-aware planning or before a clearly resource-sensitive local workload. Produces a redacted JSON snapshot and conservative planning helpers without stress tests or assuming visible host hardware is usable.
-description_zh: 可用資源查詢：環境資源盤點。
 license: MIT
 compatibility: Python 3.11+ on Linux, macOS, or Windows; standard library by default, optional psutil 7.2.2; accelerator and scheduler CLIs are optional read-only probes.
 metadata:
+  description_zh: "可用資源查詢：環境資源盤點。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.3"

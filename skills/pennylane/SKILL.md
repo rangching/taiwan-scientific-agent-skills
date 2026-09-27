@@ -1,10 +1,10 @@
 ---
 name: pennylane
 description: Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/IonQ. Best for variational algorithms (VQE, QAOA), quantum neural networks, and integration with PyTorch or JAX. For hardware-specific optimizations use qiskit (IBM) or cirq (Google); for open quantum systems use qutip.
-description_zh: 量子機器學習：變分量子線路。
 license: Apache-2.0 license
 allowed-tools: Read Bash Python
 metadata:
+  description_zh: "量子機器學習：變分量子線路。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

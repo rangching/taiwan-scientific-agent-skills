@@ -1,7 +1,6 @@
 ---
 name: protocolsio-integration
 description: Read, validate, and safely export protocols.io data with current official REST/MCP contracts, or create non-executing mutation plans. The bundled client makes bounded official-host GET requests only with explicit --execute. Use only for tasks explicitly targeting protocols.io or an exact protocols.io protocol version.
-description_zh: Protocols.io 實驗方案管理與分享。
 license: MIT
 allowed-tools: Read Write Python
 compatibility: >-
@@ -11,6 +10,7 @@ compatibility: >-
   network access is disabled unless --execute is supplied. The scripts never
   load .env files or execute mutations.
 metadata:
+  description_zh: "Protocols.io 實驗方案管理與分享。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

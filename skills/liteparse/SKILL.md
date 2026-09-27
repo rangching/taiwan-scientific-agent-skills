@@ -1,11 +1,11 @@
 ---
 name: liteparse
 description: Local document and PDF parsing that returns spatial text with bounding boxes. Use for extracting text from PDFs, DOCX, Office files, and images; running OCR on scans; producing layout-preserved JSON for RAG; batch-ingesting folders of papers; or rendering pages to PNG for multimodal agents. Distinguishing capabilities are per-token bounding boxes, page raster output, and fully local processing with no cloud API.
-description_zh: 輕量文獻解析：快速擷取重點。
 license: Apache-2.0
 allowed-tools: Read Write Edit Bash
 compatibility: Python 3.10+. Optional LibreOffice (Office formats) and ImageMagick (images). Bundled Tesseract for OCR. All processing is local — no cloud API required.
 metadata:
+  description_zh: "輕量文獻解析：快速擷取重點。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

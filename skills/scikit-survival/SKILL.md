@@ -1,11 +1,11 @@
 ---
 name: scikit-survival
 description: Build, evaluate, and audit right-censored or competing-risk survival workflows with scikit-survival, including leakage-safe preprocessing, model selection, probability prediction, and censoring-aware metrics.
-description_zh: 存活分析：設限資料建模。
 license: MIT
 compatibility: Requires Python 3.11+, uv, and the pinned scikit-survival 0.28.0 stack for executable examples. Bundled CLIs are local and network-free by default.
 allowed-tools: Read Write Edit Bash
 metadata:
+  description_zh: "存活分析：設限資料建模。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

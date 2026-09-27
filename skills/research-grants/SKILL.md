@@ -1,11 +1,11 @@
 ---
 name: research-grants
 description: Write competitive research proposals for NSF, NIH, DOE, DARPA, and Taiwan NSTC. Agency-specific formatting, review criteria, budget preparation, broader impacts, significance statements, innovation narratives, and compliance with submission requirements.
-description_zh: 研究計畫書寫作：架構、預算、審查意見回覆。
 allowed-tools: Read Write Edit Bash
 license: MIT license
 compatibility: Works in Agent Skills-compatible hosts. Grant-writing guidance needs no network; optional figures via the scientific-schematics skill require OPENROUTER_API_KEY and outbound API access.
 metadata:
+  description_zh: "研究計畫書寫作：架構、預算、審查意見回覆。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.3"

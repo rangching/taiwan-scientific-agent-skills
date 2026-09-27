@@ -1,11 +1,11 @@
 ---
 name: sympy
 description: Use when you need exact symbolic math in Python — algebra, calculus, equation solving, symbolic linear algebra, or code generation via lambdify/LaTeX. Prefer NumPy or SciPy when floating-point approximations are sufficient.
-description_zh: 符號數學：代數、微積分、物理公式推導。
 license: https://github.com/sympy/sympy/blob/master/LICENSE
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.9+ and SymPy 1.14+. Optional NumPy/SciPy/Matplotlib for lambdify examples; C/Fortran compiler for autowrap/codegen.
 metadata:
+  description_zh: "符號數學：代數、微積分、物理公式推導。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.3"

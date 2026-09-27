@@ -1,10 +1,10 @@
 ---
 name: clinical-reports
 description: Create safety-bounded draft structures and run local deterministic checks for clinical case, diagnostic, trial, safety, and aggregate research reports. Use only with synthetic, de-identified, or aggregate inputs and verified source-fact manifests; every output requires qualified review.
-description_zh: 僅產生帶標記的草稿結構（需合格人員審閱），不做診斷。
 license: MIT
 compatibility: Requires Python 3.11+ only for optional dependency-free local scripts; no network access, credentials, external models, or image services.
 metadata:
+  description_zh: "僅產生帶標記的草稿結構（需合格人員審閱），不做診斷。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.1"

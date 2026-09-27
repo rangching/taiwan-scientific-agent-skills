@@ -1,10 +1,10 @@
 ---
 name: scientific-writing
 description: Draft, revise, and audit scientific manuscripts or reports with explicit evidence provenance, reporting-guideline coverage, authorship accountability, confidentiality controls, and local consistency checks. Use for manuscript sections, references, declarations, tables, figures, or submission preparation when scientific accuracy and traceability matter.
-description_zh: 證據可追溯的學術英文寫作，產生帶引用的草稿結構。
 license: MIT
 compatibility: Requires Python 3.11+ only for optional dependency-free local CLIs; core guidance is platform-neutral. Bundled tools are offline and require no API keys.
 metadata:
+  description_zh: "證據可追溯的學術英文寫作，產生帶引用的草稿結構。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.1"

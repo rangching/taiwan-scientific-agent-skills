@@ -16,9 +16,10 @@ docs/                       # 翻譯規範、上游同步、skills 索引
 
 ## 雙語規則（必守）
 
-1. 不新增 top-level frontmatter 欄位以外的自創欄位？**例外**：允許 `description_zh`（繁中摘要字串）一個，
-   其餘一律放 `metadata` 內。這是為了相容上游驗證器而做的最小擴充。
-2. `description`（英文）一字不改；`description_zh` 一句話繁中摘要。
+1. **不可新增 top-level frontmatter 欄位**：Agent Skills 規格限定六個欄位為封閉集合，
+   `skills-ref validate` 與 `tests/_meta` 會報錯。繁中摘要一律放在
+   `metadata.description_zh`（字串，JSON 雙引號包覆），其餘詮釋資料也在 `metadata` 內。
+2. `description`（英文）一字不改；`metadata.description_zh` 一句話繁中摘要。
 3. 內文開頭插入 `> 本 skill 衍生自上游 ...` 導讀區塊＋繁中「何時使用／快速開始」短導讀，
    原英文內文完整保留在後。
 4. `metadata.version` 維持引號字串；移植時沿用上游版本，不重編。
@@ -34,6 +35,11 @@ docs/                       # 翻譯規範、上游同步、skills 索引
 
 ```bash
 python3 scripts/check_structure.py   # 本庫輕量結構檢查（檔名、frontmatter、連結）
+uv run --python 3.13 --with pytest python -m pytest tests/_meta -q  # 上游結構契約
+# 單一 skill 規格驗證（需 skills-ref，見 .github/workflows/skill-validation.yml）
+uv run --python 3.13 --with "skills-ref @ git+https://github.com/agentskills/agentskills.git#subdirectory=skills-ref" \
+  skills-ref validate skills/<name>
 ```
 
-上游完整驗證（`skills-ref validate`、pytest）待全量移植後再引入。
+上游完整驗證（per-skill pytest suites）以 `python tests/run_all.py --isolated` 執行，
+CI 僅跑 stdlib-only suites，見 `.github/workflows/skill-tests.yml`。

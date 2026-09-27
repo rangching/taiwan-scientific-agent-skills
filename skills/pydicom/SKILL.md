@@ -1,10 +1,10 @@
 ---
 name: pydicom
 description: Use pydicom to read, inspect, write, transform, and safely preflight local DICOM datasets and pixel data. Applies to DICOM metadata, transfer syntaxes, compression plugins, frames, private elements, JSON, and bounded de-identification review.
-description_zh: DICOM 醫學影像處理（隱私注意，僅研究用）。
 license: MIT
 compatibility: Python 3.10+ with pydicom 3.0.2; optional pinned NumPy, Pillow, and pixel plugins. Helper CLIs are local-only and require authorized data.
 metadata:
+  description_zh: "DICOM 醫學影像處理（隱私注意，僅研究用）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

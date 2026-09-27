@@ -1,11 +1,11 @@
 ---
 name: what-if-oracle
 description: Run structured What-If scenario analysis with 4–6 branch possibility exploration (best, likely, worst, wild card, contrarian, second-order). Use when the user asks speculative what-if questions about uncertain futures, strategic forks, contingency planning, or stress-testing a decision before committing.
-description_zh: 情境分析：假設條件推演與敏感度檢視。
 license: CC BY-NC-SA 4.0
 metadata:
+  description_zh: "情境分析：假設條件推演與敏感度檢視。"
   zh-tw-added: "2026-09-28"
-  upstream: K-Dense-AI/scientific-agent-skills
+  zh-tw-upstream: K-Dense-AI/scientific-agent-skills
   version: "1.1"
   skill-author: AHK Strategies (ashrafkahoush-ux)
   upstream: https://github.com/ashrafkahoush-ux/claude-consciousness-skills

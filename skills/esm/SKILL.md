@@ -1,9 +1,9 @@
 ---
 name: esm
 description: Use when working directly with the `esm` Python SDK, ESM3 or ESMC model IDs, Forge/Biohub inference clients, or ESMFold2 folding workflows.
-description_zh: 蛋白質語言模型 ESM：序列嵌入、功能註釋、變異效應。
 license: MIT license
 metadata:
+  description_zh: "蛋白質語言模型 ESM：序列嵌入、功能註釋、變異效應。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

@@ -1,11 +1,9 @@
 ---
 name: imaging-data-commons
 description: Query and download public cancer imaging data from NCI Imaging Data Commons. Invoke for any question about IDC collections, cancer imaging datasets, DICOM data access, radiology (CT, MR, PET) or pathology AI training sets, metadata queries, visualization, or license checks — even when the user doesn't explicitly mention "IDC". No authentication required.
-description_zh: 影像資料共享 IDC：癌症影像公開資料查詢。
 license: This skill is provided under the MIT License. IDC data itself has individual licensing (mostly CC-BY, some CC-NC) that must be respected when using the data.
 metadata:
-  zh-tw-added: "2026-09-28"
-  upstream: K-Dense-AI/scientific-agent-skills
+  description_zh: "影像資料共享 IDC：癌症影像公開資料查詢。"
   version: "1.5"
   source-skill-version: 1.8.1
   skill-author: Andrey Fedorov, @fedorov
@@ -13,16 +11,7 @@ metadata:
   idc-data-version: "v24"
   repository: https://github.com/ImagingDataCommons/imaging-data-commons-skill
 ---
-> 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。
-
-## 繁中導讀 Zh-Hant Guide
-
-### 何時使用
-
-- 影像資料共享 IDC：癌症影像公開資料查詢。
-- 詳細參數、工作流程與範例請見下方英文原文。
-
----
+> 繁中導讀：影像資料共享 IDC：癌症影像公開資料查詢。詳見下方英文原文。（衍生自上游 K-Dense Scientific Agent Skills，MIT 授權，原文完整保留。）
 
 # Imaging Data Commons
 

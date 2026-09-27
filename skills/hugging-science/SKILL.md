@@ -1,8 +1,8 @@
 ---
 name: hugging-science
 description: Use when the user is doing AI/ML work in a scientific domain such as biology, chemistry, physics, astronomy, climate, genomics, materials, medicine, ecology, energy, engineering, math, drug discovery, protein design, weather modeling, theorem proving, single-cell, or PDE solving. Hugging Science is a curated catalog of scientific datasets, models, blog posts, and interactive Spaces. This skill helps discover and use resources via `datasets`, `transformers`, the HF Inference API, `gradio_client`, and methodology citations.
-description_zh: 科學 ML 資源發現：Hugging Face 科學模型搜尋。
 metadata:
+  description_zh: "科學 ML 資源發現：Hugging Face 科學模型搜尋。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.3"

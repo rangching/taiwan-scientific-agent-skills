@@ -1,11 +1,11 @@
 ---
 name: neurokit2
 description: Use NeuroKit2 to build or audit reproducible research workflows for physiological time-series preprocessing, event/interval analysis, multimodal alignment, variability, and complexity. Trigger when code imports neurokit2 or needs its current APIs, schemas, and method-aware validation—not for diagnosis or device validation.
-description_zh: 生理訊號分析：ECG、EDA 等生醫訊號處理（研究用）。
 license: MIT
 compatibility: Python 3.10+ and uv; pinned workflows use NeuroKit2 0.2.13. Core processing needs NumPy, SciPy, pandas, scikit-learn, matplotlib, PyWavelets, requests, and setuptools; selected EEG, cvxEDA, plotting, file-format, and RQA features need separately locked optional packages.
 allowed-tools: Read Write Edit Bash Glob
 metadata:
+  description_zh: "生理訊號分析：ECG、EDA 等生醫訊號處理（研究用）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

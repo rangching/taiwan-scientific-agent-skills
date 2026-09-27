@@ -1,11 +1,11 @@
 ---
 name: pyopenms
 description: Complete mass spectrometry analysis platform. Use for proteomics and metabolomics workflows—feature detection, peptide/protein identification, label-free and isobaric quantification, adduct/accurate-mass annotation, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithms. For simple spectral comparison and small-molecule library matching use matchms.
-description_zh: 質譜蛋白體學：LC-MS／MS 資料處理與胜肽鑑定。
 license: 3 clause BSD license
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.9+ and uv. Examples and scripts target pyOpenMS 3.5.0.
 metadata:
+  description_zh: "質譜蛋白體學：LC-MS／MS 資料處理與胜肽鑑定。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.1"

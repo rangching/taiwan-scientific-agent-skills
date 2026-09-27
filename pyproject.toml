@@ -1,0 +1,23 @@
+[project]
+name = "taiwan-scientific-agent-skills"
+version = "1.1.0"
+description = "臺灣學術界適用的繁體中文科學 Agent Skills 庫（中英雙語對照），衍生自 K-Dense Scientific Agent Skills。"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest>=9.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "skills-ref @ git+https://github.com/agentskills/agentskills.git#subdirectory=skills-ref",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Required: in prepend/append mode pytest puts tests/ on sys.path, which turns
+# every tests/<skill>/ directory into an importable namespace package. Skills
+# named after the library they wrap (neurokit2, simpy, qutip, ...) would then
+# look installed to importlib.util.find_spec(). importlib mode touches sys.path
+# not at all.
+addopts = "--import-mode=importlib"

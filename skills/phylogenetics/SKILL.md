@@ -1,9 +1,9 @@
 ---
 name: phylogenetics
 description: Build and analyze phylogenetic trees using MAFFT (multiple alignment), IQ-TREE 2 (maximum likelihood), and FastTree (fast NJ/ML). Visualize with ETE3 or FigTree. For evolutionary analysis, microbial genomics, viral phylodynamics, protein family analysis, and molecular clock studies.
-description_zh: 親緣關係分析：序列比對與演化樹建構。
 license: Unknown
 metadata:
+  description_zh: "親緣關係分析：序列比對與演化樹建構。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

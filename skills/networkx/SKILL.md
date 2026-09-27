@@ -1,9 +1,9 @@
 ---
 name: networkx
 description: Create, analyze, and visualize complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), reading/writing graph file formats, or drawing network topologies. Common applications include social, biological, transportation, and citation networks.
-description_zh: 網絡分析：生物網絡建構、視覺化與指標。
 license: 3-clause BSD license
 metadata:
+  description_zh: "網絡分析：生物網絡建構、視覺化與指標。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

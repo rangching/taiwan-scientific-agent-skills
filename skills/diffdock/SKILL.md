@@ -1,26 +1,15 @@
 ---
 name: diffdock
 description: DiffDock and DiffDock-L molecular docking. Use for protein-small-molecule pose prediction from PDB or sequence plus SMILES/SDF/MOL2, batch docking, virtual screening, and pose-confidence interpretation. Not for binding affinity prediction.
-description_zh: 分子嵌合：預測小分子與蛋白靶點的結合位姿。
 allowed-tools: Read Write Edit Bash Glob Grep
 compatibility: Requires the DiffDock repository, Python 3.9 environment from upstream environment.yml or the official Docker image, RDKit, PyTorch/PyG, and optional CUDA GPU acceleration. Current guidance targets DiffDock v1.1.3 / DiffDock-L.
 license: MIT license
 metadata:
-  zh-tw-added: "2026-09-28"
-  upstream: K-Dense-AI/scientific-agent-skills
+  description_zh: "分子嵌合：預測小分子與蛋白靶點的結合位姿。"
   version: "1.3"
   skill-author: K-Dense Inc.
 ---
-> 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。
-
-## 繁中導讀 Zh-Hant Guide
-
-### 何時使用
-
-- 分子嵌合：預測小分子與蛋白靶點的結合位姿。
-- 詳細參數、工作流程與範例請見下方英文原文。
-
----
+> 繁中導讀：分子嵌合：預測小分子與蛋白靶點的結合位姿。詳見下方英文原文。（衍生自上游 K-Dense Scientific Agent Skills，MIT 授權，原文完整保留。）
 
 # DiffDock: Molecular Docking with Diffusion Models
 

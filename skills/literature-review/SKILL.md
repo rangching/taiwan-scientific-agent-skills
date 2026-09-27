@@ -1,10 +1,10 @@
 ---
 name: literature-review
 description: Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).
-description_zh: 文獻回顧合成：檢索、篩選、整理研究缺口。
 allowed-tools: Read Write Edit Bash
 license: MIT license
 metadata:
+  description_zh: "文獻回顧合成：檢索、篩選、整理研究缺口。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.8"

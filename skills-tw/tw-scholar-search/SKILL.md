@@ -1,9 +1,9 @@
 ---
 name: tw-scholar-search
 description: Search Taiwan Chinese scholarly sources including Airiti, NDLTD thesis system, and National Central Library catalogs. Use for Chinese literature discovery alongside English databases.
-description_zh: 中文文獻檢索導引：華藝 Airiti、博碩士論文系統、國家圖書館館藏，與英文資料庫互補。
 license: MIT
 metadata:
+  description_zh: "中文文獻檢索導引：華藝 Airiti、博碩士論文系統、國家圖書館館藏，與英文資料庫互補。"
   version: "1.0"
   skill-author: taiwan-scientific-agent-skills
   zh-tw-added: "2026-09-28"

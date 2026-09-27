@@ -1,10 +1,10 @@
 ---
 name: clinical-decision-support
 description: Prepare and validate research-only clinical decision-support evaluation, evidence-profile, cohort, survival, biomarker/model, privacy, and governance artifacts. Use for aggregate or synthetic research documentation and traceability—not patient care or live clinical operation.
-description_zh: 彙總層級臨床決策支援評估（非即時臨床決策）。
 license: MIT
 compatibility: Python 3.11+; local files only; bundled scripts use the standard library and require no network, credentials, API keys, LLMs, or image services.
 metadata:
+  description_zh: "彙總層級臨床決策支援評估（非即時臨床決策）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.2"

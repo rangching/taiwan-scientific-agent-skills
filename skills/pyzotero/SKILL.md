@@ -1,11 +1,11 @@
 ---
 name: pyzotero
 description: Interact with Zotero reference management libraries using the pyzotero Python client. Retrieve, create, update, and delete items, collections, tags, and attachments via the Zotero Web API v3. Use this skill when working with Zotero libraries programmatically, managing bibliographic references, exporting citations, searching library contents, uploading PDF attachments, or building research automation workflows that integrate with Zotero.
-description_zh: Zotero 文獻庫程式化存取：書目同步整理。
 allowed-tools: Read Write Edit Bash
 license: MIT License
 compatibility: Requires Python 3.10+ and pyzotero 1.13+. Web API access needs a Zotero API key. Optional CLI and MCP extras require Zotero 7 with local API access enabled.
 metadata:
+  description_zh: "Zotero 文獻庫程式化存取：書目同步整理。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

@@ -1,7 +1,6 @@
 ---
 name: matlab
 description: Build, review, migrate, and safely plan MATLAB or GNU Octave numerical workflows, including arrays, tabular/time data, tests, projects, graphics, MAT files, and explicit Python interoperability.
-description_zh: MATLAB 科學計算：矩陣運算與工具箱。
 license: MIT
 compatibility: >-
   Documentation is pinned where noted to proprietary MATLAB R2026a and free
@@ -9,6 +8,7 @@ compatibility: >-
   without MATLAB or Octave; optional MAT inventory uses scipy and/or h5py.
 allowed-tools: Read Write Bash Glob Python
 metadata:
+  description_zh: "MATLAB 科學計算：矩陣運算與工具箱。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

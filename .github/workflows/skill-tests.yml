@@ -1,0 +1,98 @@
+name: Skill Tests
+
+on:
+  pull_request:
+    paths:
+      - "skills/**"
+      - "skills-tw/**"
+      - "tests/**"
+      - "pyproject.toml"
+      - ".github/workflows/skill-tests.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "skills/**"
+      - "skills-tw/**"
+      - "tests/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: skill-tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  contract:
+    name: Repo-wide contract and coverage guard
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v8.0.0
+        with:
+          enable-cache: true
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: uv sync --python 3.13
+
+      # tests/_meta checks every skill under skills/ against the shared structural
+      # contract (frontmatter, SKILL.md length, local links, scripts parse, no shipped
+      # bytecode, ...) and enforces that a skill shipping scripts/ has a suite under
+      # tests/ plus an entry in tests/skill-requirements.toml. Stdlib only, seconds.
+      # skills-tw/ is covered by scripts/check_structure.py instead.
+      - name: Structural contract and coverage
+        run: uv run --python 3.13 python -m pytest tests/_meta -q
+
+      - name: Lightweight bilingual structure check
+        run: uv run --python 3.13 python scripts/check_structure.py
+
+  suites:
+    name: Standard-library-only skill suites
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: contract
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v8.0.0
+        with:
+          enable-cache: true
+          python-version: "3.13"
+
+      # Skills with `packages = []` in tests/skill-requirements.toml, each in a clean
+      # throwaway environment. The full `--isolated` sweep is NOT run here (torch,
+      # CUDA, JDK, MATLAB needs); run `python tests/run_all.py --isolated` locally.
+      - name: Select standard-library-only skills
+        id: select
+        run: |
+          set -euo pipefail
+          SKILLS=$(python3 - <<'PY'
+          import pathlib, tomllib
+          manifest = tomllib.loads(
+              pathlib.Path("tests/skill-requirements.toml").read_text()
+          )
+          names = sorted(
+              name
+              for name, entry in manifest["skills"].items()
+              if not entry.get("packages") and "python" not in entry
+              and (pathlib.Path("tests") / name).is_dir()
+          )
+          print(" ".join(names))
+          PY
+          )
+          echo "Selected: $SKILLS"
+          echo "skills=$SKILLS" >> "$GITHUB_OUTPUT"
+
+      - name: Run suites, one environment each
+        run: uv run --python 3.13 python tests/run_all.py --isolated ${{ steps.select.outputs.skills }}

@@ -1,11 +1,11 @@
 ---
 name: pptx-posters
 description: Create and audit editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Use when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.
-description_zh: 無巨集 PPTX 學術海報製作。
 license: MIT
 compatibility: Requires Python 3.10+, uv, and exact generation pins python-pptx 1.0.2, Pillow 12.3.0, and lxml 6.1.1. Validation and PPTX ZIP/XML inspection are local and network-free; final PowerPoint, accessibility, PDF, printer, and author review are manual.
 allowed-tools: Read Write Bash Glob Grep Python
 metadata:
+  description_zh: "無巨集 PPTX 學術海報製作。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.2"

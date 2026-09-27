@@ -1,7 +1,6 @@
 ---
 name: bids
 description: >
-description_zh: 腦影像資料結構 BIDS：資料集組織與驗證。
   Use this skill when working with Brain Imaging Data Structure (BIDS) datasets:
   organizing neuroscience and biomedical data (MRI, EEG, MEG, iEEG, PET, microscopy,
   NIRS, motion capture, EMG, MR spectroscopy, behavioral), querying BIDS layouts,
@@ -9,6 +8,7 @@ description_zh: 腦影像資料結構 BIDS：資料集組織與驗證。
   creating BIDS derivatives.
 license: https://creativecommons.org/licenses/by/4.0/
 metadata:
+  description_zh: "腦影像資料結構 BIDS：資料集組織與驗證。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.1"

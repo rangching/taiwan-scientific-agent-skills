@@ -1,11 +1,11 @@
 ---
 name: gget
 description: "Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST/BLAT, viral sequence downloads, AlphaFold structures, enrichment analysis, OpenTargets, COSMIC, CELLxGENE, and 8cube mouse specificity/expression data. Best for interactive exploration and simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices."
-description_zh: 基因體學快速查詢：基因、序列、富集分析等 20 餘種資料庫。
 license: BSD-2-Clause license
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python >=3.8 and gget 0.30.5-compatible APIs. Optional setup modules may install scientific dependencies that lag the newest Python releases; use Python 3.9 or 3.10 if `gget setup cellxgene` or `gget setup alphafold` fails.
 metadata:
+  description_zh: "基因體學快速查詢：基因、序列、富集分析等 20 餘種資料庫。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.5"

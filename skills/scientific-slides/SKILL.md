@@ -1,10 +1,10 @@
 ---
 name: scientific-slides
 description: Build slide decks and presentations for research talks. Use this for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing guidance, and visual validation. Works with PowerPoint and LaTeX Beamer.
-description_zh: 學術簡報製作：投影片結構與圖表。
 allowed-tools: Read Write Edit Bash
 license: MIT license
 metadata:
+  description_zh: "學術簡報製作：投影片結構與圖表。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.8"

@@ -1,9 +1,9 @@
 ---
 name: glycoengineering
 description: Analyze and engineer protein glycosylation. Scan sequences for N-glycosylation sequons (N-X-S/T), predict O-glycosylation hotspots, and access curated glycoengineering tools (NetOGlyc, GlycoShield, GlycoWorkbench). For glycoprotein engineering, therapeutic antibody optimization, and vaccine design.
-description_zh: 醣工程：醣基化分析與設計。
 license: Unknown
 metadata:
+  description_zh: "醣工程：醣基化分析與設計。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

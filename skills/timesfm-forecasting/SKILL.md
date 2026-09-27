@@ -1,10 +1,10 @@
 ---
 name: timesfm-forecasting
 description: Zero-shot time series forecasting with Google's TimesFM foundation model. Use for any univariate time series (sales, sensors, energy, vitals, weather) without training a custom model. Supports CSV/DataFrame/array inputs with point forecasts and prediction intervals. Includes a preflight system checker script to verify RAM/GPU before first use.
-description_zh: TimesFM 時間序列預測：基礎模型預報。
 allowed-tools: Read Write Edit Bash
 license: Apache-2.0 license
 metadata:
+  description_zh: "TimesFM 時間序列預測：基礎模型預報。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

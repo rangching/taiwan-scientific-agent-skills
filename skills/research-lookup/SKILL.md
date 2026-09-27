@@ -1,10 +1,10 @@
 ---
 name: research-lookup
 description: "Compile current scholarly evidence for a scientific manuscript or research brief. Use when the user explicitly asks to gather literature, references, background evidence, competing findings, or a manuscript research packet. Uses Parallel Search by default, Parallel Extract for source verification, Parallel Research for explicitly deep/exhaustive work, optional explicit Parallel Chat, and optional Perplexity only when requested or allowed as a failure fallback."
-description_zh: 研究查詢：跨資料庫研究資訊檢索。
 license: MIT license
 compatibility: Requires network access to api.parallel.ai through parallel-cli 0.7.1+ for Search, Extract, and Research; explicit Chat uses api.parallel.ai with PARALLEL_API_KEY; optional Perplexity requests use openrouter.ai and require OPENROUTER_API_KEY.
 metadata:
+  description_zh: "研究查詢：跨資料庫研究資訊檢索。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.5"

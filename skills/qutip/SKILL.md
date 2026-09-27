@@ -1,10 +1,10 @@
 ---
 name: qutip
 description: Simulate and audit closed and open quantum-system models with QuTiP 5, including deterministic, trajectory, steady-state, spectral, and phase-space workflows. Use for local quantum-dynamics work where physical assumptions, dimensions, and numerical convergence must be explicit.
-description_zh: 開放量子系統模擬：量子光學與動力學。
 license: MIT
 compatibility: Requires Python 3.11+, uv, and qutip==5.3.0 for executable simulations. Bundled planners and all script help run with the Python standard library; plotting requires the pinned graphics extra. No network service or credentials are used.
 metadata:
+  description_zh: "開放量子系統模擬：量子光學與動力學。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

@@ -1,11 +1,11 @@
 ---
 name: pathml
 description: "Use PathML for local, research-only computational pathology workflows: load and tile slides, build preprocessing and QC pipelines, manage h5path data, quantify multiplex images, construct spatial graphs, and plan bounded model inference."
-description_zh: 計算病理：全切片影像（WSI）研究分析流程。
 license: MIT
 compatibility: PathML 3.0.5 is the latest PyPI release and targets Python 3.10-3.12; installation needs uv plus platform libraries for OpenSlide, BLAS/LAPACK, and Java/Bio-Formats. Bundled Python 3.10+ CLIs are local, bounded, dependency-free, and network-free.
 allowed-tools: Read Write Edit Bash Glob
 metadata:
+  description_zh: "計算病理：全切片影像（WSI）研究分析流程。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

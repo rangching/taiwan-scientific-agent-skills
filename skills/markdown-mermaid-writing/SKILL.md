@@ -1,10 +1,10 @@
 ---
 name: markdown-mermaid-writing
 description: Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization. Establishes text-based diagrams as the default documentation standard with full style guides (markdown + mermaid), 24 diagram type references, and 9 document templates.
-description_zh: Mermaid 流程圖寫作：技術圖表文件化。
 allowed-tools: Read Write Edit Bash
 license: Apache-2.0
 metadata:
+  description_zh: "Mermaid 流程圖寫作：技術圖表文件化。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.1"

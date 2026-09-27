@@ -1,11 +1,11 @@
 ---
 name: molfeat
 description: Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.
-description_zh: 分子特徵化：指紋、描述子、機器學習輸入特徵。
 license: Apache-2.0 license
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.9–3.10 (molfeat 0.11.0 does not support 3.11+). Requires datamol, PyTorch, and optional extras for GNN/transformer models.
 metadata:
+  description_zh: "分子特徵化：指紋、描述子、機器學習輸入特徵。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

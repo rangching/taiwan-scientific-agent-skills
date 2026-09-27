@@ -1,11 +1,11 @@
 ---
 name: simpy
 description: Build, inspect, test, and analyze bounded process-based discrete-event simulations with SimPy, including events, resources, interrupts, monitoring, replications, warm-up, and reproducible output analysis.
-description_zh: 離散事件模擬：排隊與流程系統建模。
 license: MIT
 compatibility: Upstream SimPy 4.1.2 supports Python 3.8+; bundled CLIs require Python 3.10+, uv, and SimPy 4.1.2. They use only SimPy and the standard library, operate on local bounded inputs, and make no network calls.
 allowed-tools: Read Write Edit Bash Glob
 metadata:
+  description_zh: "離散事件模擬：排隊與流程系統建模。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.4"

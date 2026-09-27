@@ -1,10 +1,10 @@
 ---
 name: database-lookup
 description: Query documented public database APIs with explicit endpoints, filters, pagination, and provenance. Use when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.
-description_zh: 統一查詢 78 個以上公開科學資料庫（PubChem、ChEMBL、UniProt、COSMIC 等），附出處紀錄。
 allowed-tools: Read Bash
 license: MIT
 metadata:
+  description_zh: "統一查詢 78 個以上公開科學資料庫（PubChem、ChEMBL、UniProt、COSMIC 等），附出處紀錄。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.6"

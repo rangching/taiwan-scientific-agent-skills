@@ -1,10 +1,10 @@
 ---
 name: xlsx
 description: "Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm, .xltx) where the workbook file is the primary deliverable. Use for formulas, formatting, financial models, multi-sheet workbooks, and tabular cleanup exported to Excel. Also applies to .csv/.tsv when the user wants spreadsheet output. Do NOT use for Word documents, HTML reports, standalone Python scripts, database pipelines, or Google Sheets API work."
-description_zh: Excel 試算表處理（本體為 Anthropic 借用作品，LICENSE.txt 保持原樣）。
 allowed-tools: Read Write Edit Bash Grep Glob
 license: Proprietary. LICENSE.txt has complete terms
 metadata:
+  description_zh: "Excel 試算表處理（本體為 Anthropic 借用作品，LICENSE.txt 保持原樣）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.2"

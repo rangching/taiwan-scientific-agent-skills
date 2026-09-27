@@ -1,7 +1,6 @@
 ---
 name: onekgpd
 description: >
-description_zh: 千人基因體 GRCh38 隊列：變異與樣本查詢。
   Query the 1000 Genomes Project dataset (3,202 whole-genome-sequenced
   individuals, GRCh38) at the level of individual participants.
   Use when a question is about individuals or variants in the 1000 Genomes
@@ -15,6 +14,7 @@ license: MIT
 compatibility: Requires Python >=3.11. Variant and sample queries require outbound network access to the public 1000 Genomes query endpoint over TLS; the sample/population metadata commands run fully offline over a data file bundled in the skill. No credentials, API keys, or environment variables are used.
 allowed-tools: Write Bash
 metadata:
+  description_zh: "千人基因體 GRCh38 隊列：變異與樣本查詢。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

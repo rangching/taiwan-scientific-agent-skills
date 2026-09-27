@@ -1,11 +1,11 @@
 ---
 name: latchbio-integration
 description: Build, register, debug, and operate bioinformatics workflows on Latch using the Python SDK, CLI, Latch Data and Registry, Nextflow, Snakemake, programmatic execution, and Latch MCP. Use when authoring or deploying Latch workflows, configuring resources or interfaces, moving data, integrating Registry, or launching and monitoring runs.
-description_zh: LatchBio 平台整合：生資工作流程執行。
 license: MIT
 allowed-tools: Read Write Edit Bash
 compatibility: Requires network access and a Latch account. The current stable SDK requires Python 3.9+; Python 3.12 is recommended. Uses uv for installation. Docker is needed for local image builds, while remote registration is the CLI default.
 metadata:
+  description_zh: "LatchBio 平台整合：生資工作流程執行。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.1"

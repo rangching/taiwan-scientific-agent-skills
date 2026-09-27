@@ -1,11 +1,11 @@
 ---
 name: geopandas
 description: Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.
-description_zh: 地理空間分析：向量圖資、空間統計。
 license: MIT
 compatibility: Requires Python 3.10+ and uv. Bundled CLIs are local-only; runtime analysis requires the pinned GeoPandas stack below.
 allowed-tools: Read Write Bash Glob Grep
 metadata:
+  description_zh: "地理空間分析：向量圖資、空間統計。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

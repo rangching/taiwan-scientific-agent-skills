@@ -1,9 +1,9 @@
 ---
 name: molecular-dynamics
 description: Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule systems, define force fields, run energy minimization and production MD, analyze trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural biology, drug binding, and biophysics.
-description_zh: 分子動力學：OpenMM／MDAnalysis 模擬與軌跡分析。
 license: MIT
 metadata:
+  description_zh: "分子動力學：OpenMM／MDAnalysis 模擬與軌跡分析。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.1"

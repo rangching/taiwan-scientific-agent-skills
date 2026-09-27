@@ -1,9 +1,9 @@
 ---
 name: primekg
 description: Query the Precision Medicine Knowledge Graph (PrimeKG) for multiscale biological data including genes, drugs, diseases, phenotypes, and more.
-description_zh: 生醫知識圖譜 PrimeKG：有界圖譜搜尋與關係查詢。
 license: Unknown
 metadata:
+  description_zh: "生醫知識圖譜 PrimeKG：有界圖譜搜尋與關係查詢。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

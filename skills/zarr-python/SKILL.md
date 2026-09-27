@@ -1,11 +1,11 @@
 ---
 name: zarr-python
 description: Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, parallel I/O, S3/GCS via fsspec, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.
-description_zh: 分塊多維陣列儲存：大型影像與基因體資料。
 allowed-tools: Read Write Edit Bash
 license: MIT license
 compatibility: Requires Python 3.12+ and zarr 3.x. Cloud I/O needs zarr[remote] plus pinned s3fs or gcsfs. Legacy Zarr v2 workflows need exact 2.x pins on older Python.
 metadata:
+  description_zh: "分塊多維陣列儲存：大型影像與基因體資料。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.3"

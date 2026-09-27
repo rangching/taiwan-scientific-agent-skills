@@ -1,11 +1,11 @@
 ---
 name: matchms
 description: Process, clean, compare, and search tandem mass spectra with matchms. Use for MS/MS file I/O, metadata harmonization, peak filtering, spectral similarity, library matching, score matrices, and molecular-similarity networks. Use pyopenms instead for LC-MS feature detection or proteomics pipelines.
-description_zh: 質譜圖譜比對：光譜相似性與分子網絡。
 allowed-tools: Read Write Edit Bash
 license: Apache-2.0
 compatibility: Requires Python >=3.10,<3.15, uv, and matchms 0.33.1. Local file workflows need no credentials; metabolomics-USI loading requires network access.
 metadata:
+  description_zh: "質譜圖譜比對：光譜相似性與分子網絡。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "2.1"

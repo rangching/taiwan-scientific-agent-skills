@@ -1,9 +1,9 @@
 ---
 name: pacsomatic
 description: Operator toolkit for nf-core/pacsomatic matched tumor-normal workflows from BAM inputs. Use this skill when the user needs to validate run inputs, generate pacsomatic-compliant samplesheets, prepare reproducible Nextflow launch artifacts, run locally or submit to schedulers (LSF/Slurm/PBS/SGE), and triage execution failures. Triggers on requests to run pacsomatic, prepare launch commands/scripts, perform dry-run checks, or troubleshoot pipeline startup and scheduler submission errors.
-description_zh: 體細胞鑲嵌變異：單細胞變異偵測。
 license: MIT
 metadata:
+  description_zh: "體細胞鑲嵌變異：單細胞變異偵測。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"

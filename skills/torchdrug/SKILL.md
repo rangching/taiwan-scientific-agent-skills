@@ -1,11 +1,11 @@
 ---
 name: torchdrug
 description: Build and troubleshoot TorchDrug 0.2.1 workflows for molecular graphs, property prediction, self-supervised pretraining, molecule generation, retrosynthesis, protein representation learning, and knowledge graph reasoning. Use when code imports torchdrug or needs its datasets, models, tasks, or Engine.
-description_zh: 藥物發現圖深度學習：TorchDrug 分子建模。
 license: Apache-2.0 license
 compatibility: TorchDrug 0.2.1 requires Python 3.7-3.10 and supports PyTorch 1.8-2.0. Apple Silicon is CPU-only; MPS is unsupported.
 allowed-tools: Read Write Edit Bash
 metadata:
+  description_zh: "藥物發現圖深度學習：TorchDrug 分子建模。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
   version: "1.2"
