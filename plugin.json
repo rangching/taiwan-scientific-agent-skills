@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "taiwan-scientific-agent-skills",
+  "version": "0.1.0",
+  "description": "臺灣學術界適用的繁體中文科學 Agent Skills 庫（中英雙語對照），衍生自 K-Dense Scientific Agent Skills。Ready-to-use scientific Agent Skills for Taiwan academia (zh-Hant-TW / English).",
+  "author": {
+    "name": "rangching"
+  },
+  "homepage": "https://github.com/rangching/taiwan-scientific-agent-skills",
+  "repository": "https://github.com/rangching/taiwan-scientific-agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "science",
+    "research",
+    "bioinformatics",
+    "cheminformatics",
+    "biology",
+    "chemistry",
+    "medicine",
+    "taiwan",
+    "zh-Hant-TW"
+  ]
+}

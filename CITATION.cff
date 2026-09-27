@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: >-
+  本專案為繁體中文改作版。若使用本庫，請同時引用原論文（preferred-citation）
+  與本改作庫，並記錄使用的 release tag 或 commit。
+type: software
+title: Taiwan Scientific Agent Skills（臺灣學術繁中科學 Agent Skills 庫）
+abstract: >-
+  臺灣學術界適用的繁體中文科學 Agent Skills 庫（中英雙語對照），衍生自
+  K-Dense Scientific Agent Skills，涵蓋生資、化學、醫學、研究寫作與臺灣法規、
+  運算資源在地化指引，適用於支援 Agent Skills 開放標準之 AI agent。
+authors:
+  - name: K-Dense Inc.
+    website: https://www.k-dense.ai
+repository-code: https://github.com/rangching/taiwan-scientific-agent-skills
+url: https://github.com/rangching/taiwan-scientific-agent-skills
+license: MIT
+keywords:
+  - agent-skills
+  - science
+  - research
+  - taiwan
+  - zh-Hant-TW
+preferred-citation:
+  type: generic
+  title: "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents"
+  authors:
+    - family-names: Kassis
+      given-names: Timothy
+    - family-names: Agarwal
+      given-names: Vinayak
+    - family-names: He
+      given-names: Yuhuan
+    - family-names: Patel
+      given-names: Darshil
+    - family-names: Brueckner
+      given-names: Aubrey M.
+  year: 2026
+  month: 8
+  date-published: 2026-08-30
+  doi: 10.48550/arXiv.2609.00065
+  url: https://arxiv.org/abs/2609.00065
