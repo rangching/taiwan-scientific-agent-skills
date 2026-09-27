@@ -1,4 +1,4 @@
-# Skills 索引（v0.4.0：累計 116＋台灣新增 3）
+# Skills 索引（v1.0.0：上游 166 全量＋台灣新增 3）
 
 ## 上游移植（skills/，中英雙語，英文原文保留）
 
@@ -135,6 +135,63 @@
 | research-lookup | 跨資料庫研究檢索 |
 | bgpt-paper-search | 生醫論文搜尋 |
 | autoskill | 工作流程衍生 skill 起草 |
+
+### 第五批（v1.0.0：收尾全量，50 個）
+
+| skill | 繁中摘要 |
+| --- | --- |
+| adaptyv | 蛋白質 AI 實驗驗證介接 |
+| aeon | 時間序列預測工具箱 |
+| arbor | 神經元模擬 |
+| consciousness-council | 多視角審議輔助 |
+| deepspot-m | 單分子定位顯微 |
+| deeptools | 定序資料視覺化 |
+| dhdna-profiler | DH-DNA 結構剖面 |
+| docx※ | Word 文件處理 |
+| etetoolkit | 演化樹處理 |
+| flowio | 流式細胞 FCS 讀寫 |
+| fluidsim | 流體模擬 |
+| folklore-variant-evidence | 變異證據查核 |
+| generate-image | AI 圖像生成 |
+| geniml | 基因體區間機器學習 |
+| geomaster | 地理資料擷取 |
+| get-available-resources | 可用資源盤點 |
+| gtars | 基因體區間高速查詢 |
+| hugging-science | 科學 ML 資源發現 |
+| hypogenic | 假說優化精煉 |
+| lab-hardware-cad | 實驗硬體 CAD |
+| liteparse | 輕量文獻解析 |
+| market-research-reports | 市場研究報告 |
+| matlab | MATLAB 科學計算 |
+| modal | 雲端批次運算 |
+| ncats-arax | 生醫知識圖譜推理 |
+| neuropixels-analysis | 高通道神經訊號分析 |
+| ontology-term-resolution | 本體論詞彙對映 |
+| openpiv | 粒子影像測速 |
+| optimize-for-gpu | GPU 加速設定 |
+| pacsomatic | 體細胞鑲嵌變異偵測 |
+| parallel-web | 平行網路檢索 |
+| pdf※ | PDF 文件處理 |
+| pi-agent | Pi 平台建構 |
+| pptx※ | 簡報文件處理 |
+| pptx-posters | 無巨集學術海報 |
+| pufferlib | 強化學習向量化模擬 |
+| pyhealth | 醫療 AI 研究（回溯驗證） |
+| pymatgen | 材料科學計算 |
+| pymoo | 多目標優化 |
+| rowan | 雲端量子化學模擬 |
+| scikit-survival | 存活分析 |
+| simpy | 離散事件模擬 |
+| stable-baselines3 | 強化學習基線 |
+| tamarind | 特定研究流程介接 |
+| timesfm-forecasting | 時間序列基礎模型預報 |
+| torchdrug | 藥物圖深度學習 |
+| uncertainty-and-units | 不確定度與單位 |
+| usfiscaldata | 美國財政資料查詢 |
+| waypoint-bio | 特定生醫流程介接 |
+| xlsx※ | Excel 試算表處理 |
+
+※ Anthropic 借用作品，本體與 LICENSE.txt 原樣保留，僅加繁中導讀。
 
 ## 台灣在地新增（skills-tw/）
 

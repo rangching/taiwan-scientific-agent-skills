@@ -5,7 +5,7 @@
 > Derived from K-Dense Scientific Agent Skills, localized for Taiwan academia (zh-Hant-TW / English).
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE.md)
-[![Version](https://img.shields.io/badge/version-0.4.0-blue.svg)](plugin.json)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](plugin.json)
 
 ## 來源與致謝 Origin
 
@@ -13,9 +13,9 @@
 * 其中 `docx`、`pdf`、`pptx`、`xlsx` 四個 skills 系借用 Anthropic 作品，各目錄內 `LICENSE.txt` 保持原樣。
 * 本庫改作與臺灣新增內容同樣以 MIT 釋出。
 
-## 內容 Contents（v0.4.0：累計 116＋台灣新增 3）
+## 內容 Contents（v1.0.0：上游 166 全量＋台灣新增 3）
 
-* `skills/`：累計 116 個上游 skills（完整複製＋繁中導讀＋`description_zh`），其餘分批補齊至 166。
+* `skills/`：上游 166 個全數收錄（完整複製＋繁中導讀＋`description_zh`）。
 * `skills-tw/`：臺灣在地新增 3 個：
   * `nstc-grant-writing`：國科會專題研究計畫書架構與查核表
   * `tw-research-ethics`：人體研究法、個資法、IRB/REC 送審流程導引（僅流程輔助）
@@ -51,6 +51,17 @@ statistical-power、bids、imaging-data-commons、depmap、onekgpd、
 alphagenome、genomic-intelligence、pathogen-variant-surveillance、
 genomic-coordinates、phylogenetics、scikit-bio、cobrapy、glycoengineering、
 research-lookup、bgpt-paper-search、autoskill。
+
+第五批 50 個（收尾全量）：adaptyv、aeon、arbor、consciousness-council、deepspot-m、
+deeptools、dhdna-profiler、docx※、etetoolkit、flowio、fluidsim、
+folklore-variant-evidence、generate-image、geniml、geomaster、get-available-resources、
+gtars、hugging-science、hypogenic、lab-hardware-cad、liteparse、
+market-research-reports、matlab、modal、ncats-arax、neuropixels-analysis、
+ontology-term-resolution、openpiv、optimize-for-gpu、pacsomatic、parallel-web、
+pdf※、pi-agent、pptx※、pptx-posters、pufferlib、pyhealth、pymatgen、pymoo、
+rowan、scikit-survival、simpy、stable-baselines3、tamarind、timesfm-forecasting、
+torchdrug、uncertainty-and-units、usfiscaldata、waypoint-bio、xlsx※。
+（※為 Anthropic 借用作品，本體與 LICENSE.txt 原樣保留，僅加繁中導讀。）
 
 詳見 `docs/skills.md`。
 
