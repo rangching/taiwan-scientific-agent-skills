@@ -1,4 +1,4 @@
-# Skills 索引（v0.2.0：累計 56＋台灣新增 3）
+# Skills 索引（v0.3.0：累計 86＋台灣新增 3）
 
 ## 上游移植（skills/，中英雙語，英文原文保留）
 
@@ -65,6 +65,41 @@
 | clinical-decision-support | 彙總層級決策支援評估 |
 | pkpd-modeling | 藥物動力效能建模 |
 | primekg | 生醫知識圖譜搜尋 |
+
+### 第三批（v0.3.0：工程＋資料＋寫作）
+
+| skill | 繁中摘要 |
+| --- | --- |
+| polars | 高速 DataFrame 資料處理 |
+| polars-bio | 基因體區間高速處理 |
+| dask | 平行與分散式運算 |
+| vaex | 超大型表格處理 |
+| nextflow | 生資工作流程管理 |
+| zarr-python | 分塊多維陣列儲存 |
+| tiledbvcf | 群體規模 VCF 資料庫 |
+| lamindb | 資料版本譜系管理 |
+| datalad | 研究資料版本控管 |
+| geopandas | 地理空間分析 |
+| astropy | 天文資料分析 |
+| sympy | 符號數學 |
+| qiskit | 量子計算 |
+| cirq | 量子線路模擬 |
+| pennylane | 量子機器學習 |
+| qutip | 開放量子系統模擬 |
+| pytorch-lightning | 深度學習訓練框架 |
+| transformers | Transformer 模型 |
+| shap | 模型可解釋性 |
+| pyzotero | Zotero 文獻庫存取 |
+| markitdown | 文件轉 Markdown |
+| latex-posters | LaTeX 學術海報 |
+| scientific-slides | 學術簡報製作 |
+| infographics | 科學資訊圖表 |
+| markdown-mermaid-writing | Mermaid 流程圖寫作 |
+| scientific-schematics | 科學示意圖繪製 |
+| exa-search | AI 即時檢索 |
+| open-notebook | 開放實驗紀錄 |
+| protocolsio-integration | 實驗方案管理 |
+| opentrons-integration | 移液機器人方案（實機須受訓操作） |
 
 ## 台灣在地新增（skills-tw/）
 

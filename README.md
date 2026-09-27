@@ -5,7 +5,7 @@
 > Derived from K-Dense Scientific Agent Skills, localized for Taiwan academia (zh-Hant-TW / English).
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE.md)
-[![Version](https://img.shields.io/badge/version-0.2.0-blue.svg)](plugin.json)
+[![Version](https://img.shields.io/badge/version-0.3.0-blue.svg)](plugin.json)
 
 ## 來源與致謝 Origin
 
@@ -13,9 +13,9 @@
 * 其中 `docx`、`pdf`、`pptx`、`xlsx` 四個 skills 系借用 Anthropic 作品，各目錄內 `LICENSE.txt` 保持原樣。
 * 本庫改作與臺灣新增內容同樣以 MIT 釋出。
 
-## 內容 Contents（v0.2.0：累計 56＋台灣新增 3）
+## 內容 Contents（v0.3.0：累計 86＋台灣新增 3）
 
-* `skills/`：累計 56 個上游 skills（完整複製＋繁中導讀＋`description_zh`），其餘分批補齊至 166。
+* `skills/`：累計 86 個上游 skills（完整複製＋繁中導讀＋`description_zh`），其餘分批補齊至 166。
 * `skills-tw/`：臺灣在地新增 3 個：
   * `nstc-grant-writing`：國科會專題研究計畫書架構與查核表
   * `tw-research-ethics`：人體研究法、個資法、IRB/REC 送審流程導引（僅流程輔助）
@@ -34,6 +34,13 @@ paperclip、paperzilla、pyopenms、matchms、pathway-enrichment、torch-geometr
 pymc、networkx、matplotlib、seaborn、umap-learn、scvi-tools、scvelo、
 cellxgene-census、arboreto、bulk-rnaseq、clinical-decision-support、
 pkpd-modeling、primekg。
+
+第三批 30 個（工程＋資料＋寫作）：polars、polars-bio、dask、vaex、nextflow、
+zarr-python、tiledbvcf、lamindb、datalad、geopandas、astropy、sympy、qiskit、
+cirq、pennylane、qutip、pytorch-lightning、transformers、shap、pyzotero、
+markitdown、latex-posters、scientific-slides、infographics、
+markdown-mermaid-writing、scientific-schematics、exa-search、open-notebook、
+protocolsio-integration、opentrons-integration。
 
 詳見 `docs/skills.md`。
 

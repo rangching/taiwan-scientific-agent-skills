@@ -33,8 +33,10 @@ def check_tree(base: str) -> int:
             FAIL.append(f'{base}/{d.name}: 缺 description')
         if 'description_zh:' not in front:
             FAIL.append(f'{base}/{d.name}: 缺 description_zh')
-        # 本地連結檢查（references/、assets/、scripts/）
+        # 本地連結檢查（references/、assets/、scripts/）；略過 url 佔位範例
         for link in re.findall(r'\]\(([^)http][^)]*)\)', text):
+            if link.strip() == 'url':
+                continue
             target = (d / link.split('#')[0]).resolve()
             if not target.exists():
                 FAIL.append(f'{base}/{d.name}: 連結失效 {link}')
