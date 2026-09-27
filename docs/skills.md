@@ -1,4 +1,4 @@
-# Skills 索引（v0.1.0：首批 26＋台灣新增 3）
+# Skills 索引（v0.2.0：累計 56＋台灣新增 3）
 
 ## 上游移植（skills/，中英雙語，英文原文保留）
 
@@ -30,6 +30,41 @@
 | analytical-method-validation | 分析方法確效 |
 | literature-review | 文獻回顧合成 |
 | statistical-analysis | 統計分析流程 |
+
+### 第二批（v0.2.0：藥化＋影像＋臨床＋多體學）
+
+| skill | 繁中摘要 |
+| --- | --- |
+| datamol | 分子處理與先導化合物優化 |
+| diffdock | 分子嵌合結合位姿預測 |
+| medchem | 藥物化學 SAR 與優化 |
+| molfeat | 分子特徵與描述子 |
+| pytdc | 治療資料共享基準 |
+| molecular-dynamics | 分子動力學模擬 |
+| esm | 蛋白質語言模型 |
+| pydicom | DICOM 醫學影像（研究用） |
+| pathml | 計算病理全切片分析 |
+| histolab | 病理影像前處理 |
+| neurokit2 | 生理訊號分析（研究用） |
+| paperclip | 全文文獻法規檢索 |
+| paperzilla | 論文搜尋追蹤 |
+| pyopenms | 質譜蛋白體學 |
+| matchms | 質譜圖譜比對 |
+| pathway-enrichment | 路徑富集分析 |
+| torch-geometric | 圖神經網路 |
+| pymc | 貝氏建模 |
+| networkx | 網絡分析 |
+| matplotlib | 科學繪圖基礎 |
+| seaborn | 統計視覺化 |
+| umap-learn | UMAP 降維 |
+| scvi-tools | 單細胞深度學習 |
+| scvelo | RNA 速度分析 |
+| cellxgene-census | 單細胞公開資料整合 |
+| arboreto | 基因調控網絡重建 |
+| bulk-rnaseq | Bulk RNA-seq 端到端流程 |
+| clinical-decision-support | 彙總層級決策支援評估 |
+| pkpd-modeling | 藥物動力效能建模 |
+| primekg | 生醫知識圖譜搜尋 |
 
 ## 台灣在地新增（skills-tw/）
 
