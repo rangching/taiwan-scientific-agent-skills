@@ -5,7 +5,7 @@
 > Derived from K-Dense Scientific Agent Skills, localized for Taiwan academia (zh-Hant-TW / English).
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE.md)
-[![Version](https://img.shields.io/badge/version-0.3.0-blue.svg)](plugin.json)
+[![Version](https://img.shields.io/badge/version-0.4.0-blue.svg)](plugin.json)
 
 ## 來源與致謝 Origin
 
@@ -13,9 +13,9 @@
 * 其中 `docx`、`pdf`、`pptx`、`xlsx` 四個 skills 系借用 Anthropic 作品，各目錄內 `LICENSE.txt` 保持原樣。
 * 本庫改作與臺灣新增內容同樣以 MIT 釋出。
 
-## 內容 Contents（v0.3.0：累計 86＋台灣新增 3）
+## 內容 Contents（v0.4.0：累計 116＋台灣新增 3）
 
-* `skills/`：累計 86 個上游 skills（完整複製＋繁中導讀＋`description_zh`），其餘分批補齊至 166。
+* `skills/`：累計 116 個上游 skills（完整複製＋繁中導讀＋`description_zh`），其餘分批補齊至 166。
 * `skills-tw/`：臺灣在地新增 3 個：
   * `nstc-grant-writing`：國科會專題研究計畫書架構與查核表
   * `tw-research-ethics`：人體研究法、個資法、IRB/REC 送審流程導引（僅流程輔助）
@@ -41,6 +41,16 @@ cirq、pennylane、qutip、pytorch-lightning、transformers、shap、pyzotero、
 markitdown、latex-posters、scientific-slides、infographics、
 markdown-mermaid-writing、scientific-schematics、exa-search、open-notebook、
 protocolsio-integration、opentrons-integration。
+
+第四批 30 個（實驗室自動化＋方法＋基因體）：benchling-integration、
+labarchive-integration、latchbio-integration、dnanexus-integration、
+omero-integration、ginkgo-cloud-lab、pylabrobot、treatment-plans、
+relsa-severity-assessment、what-if-oracle、scientific-brainstorming、
+scientific-critical-thinking、scholar-evaluation、venue-templates、
+statistical-power、bids、imaging-data-commons、depmap、onekgpd、
+alphagenome、genomic-intelligence、pathogen-variant-surveillance、
+genomic-coordinates、phylogenetics、scikit-bio、cobrapy、glycoengineering、
+research-lookup、bgpt-paper-search、autoskill。
 
 詳見 `docs/skills.md`。
 

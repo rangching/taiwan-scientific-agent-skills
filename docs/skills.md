@@ -1,4 +1,4 @@
-# Skills 索引（v0.3.0：累計 86＋台灣新增 3）
+# Skills 索引（v0.4.0：累計 116＋台灣新增 3）
 
 ## 上游移植（skills/，中英雙語，英文原文保留）
 
@@ -100,6 +100,41 @@
 | open-notebook | 開放實驗紀錄 |
 | protocolsio-integration | 實驗方案管理 |
 | opentrons-integration | 移液機器人方案（實機須受訓操作） |
+
+### 第四批（v0.4.0：實驗室自動化＋方法＋基因體）
+
+| skill | 繁中摘要 |
+| --- | --- |
+| benchling-integration | Benchling 整合（寫入需授權） |
+| labarchive-integration | LabArchives 整合（寫入需授權） |
+| latchbio-integration | LatchBio 平台整合 |
+| dnanexus-integration | DNAnexus 平台整合 |
+| omero-integration | OMERO 影像管理 |
+| ginkgo-cloud-lab | 雲端實驗室介接 |
+| pylabrobot | 移液機器人方案（實機須受訓操作） |
+| treatment-plans | 治療決策格式整理（非決策） |
+| relsa-severity-assessment | 動物嚴重度評分輔助 |
+| what-if-oracle | 情境分析推演 |
+| scientific-brainstorming | 科學腦力激盪 |
+| scientific-critical-thinking | 科學批判思考 |
+| scholar-evaluation | 學術著作質性評估輔助 |
+| venue-templates | 投稿場地範本 |
+| statistical-power | 檢定力分析 |
+| bids | 腦影像 BIDS 結構 |
+| imaging-data-commons | 癌症影像公開資料 |
+| depmap | 癌症依賴圖譜 |
+| onekgpd | 千人基因體隊列查詢 |
+| alphagenome | 變異效應預測（研究用） |
+| genomic-intelligence | 調控序列預測（研究用） |
+| pathogen-variant-surveillance | 病原變異監測 |
+| genomic-coordinates | 座標系轉換查核 |
+| phylogenetics | 親緣關係分析 |
+| scikit-bio | 生物序列生態統計 |
+| cobrapy | 代謝通量分析 |
+| glycoengineering | 醣工程 |
+| research-lookup | 跨資料庫研究檢索 |
+| bgpt-paper-search | 生醫論文搜尋 |
+| autoskill | 工作流程衍生 skill 起草 |
 
 ## 台灣在地新增（skills-tw/）
 

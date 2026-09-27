@@ -37,6 +37,8 @@ def check_tree(base: str) -> int:
         for link in re.findall(r'\]\(([^)http][^)]*)\)', text):
             if link.strip() == 'url':
                 continue
+            if re.match(r'[a-zA-Z][a-zA-Z0-9+.-]*:', link.strip()):
+                continue  # 外部連結 scheme（mailto:、doi: 等）非本地檔案，略過
             target = (d / link.split('#')[0]).resolve()
             if not target.exists():
                 FAIL.append(f'{base}/{d.name}: 連結失效 {link}')
