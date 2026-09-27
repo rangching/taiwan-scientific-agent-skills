@@ -5,10 +5,10 @@ license: MIT license
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.7–3.11 (PyPI 2.8.0 caps at <3.12). Install PyTorch, TensorFlow, or JAX before the matching deepchem extra. RDKit is a core dependency.
 metadata:
+  version: "1.5"
   description_zh: "藥物化學深度學習：ADMET 預測、分子建模。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.5"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

@@ -4,10 +4,10 @@ description: Facilitates evidence-aware scientific ideation with independent gen
 license: MIT
 compatibility: Core guidance works in any Agent Skills-compatible host. Optional bundled CLIs require Python 3.11+ and use only the standard library; they make no network or LLM calls and require no credentials.
 metadata:
+  version: "1.2"
   description_zh: "科學腦力激盪：研究方向發想輔助。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: "K-Dense Inc."
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

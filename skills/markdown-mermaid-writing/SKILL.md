@@ -4,10 +4,10 @@ description: Comprehensive markdown and Mermaid diagram writing skill. Use when 
 allowed-tools: Read Write Edit Bash
 license: Apache-2.0
 metadata:
+  version: "1.1"
   description_zh: "Mermaid 流程圖寫作：技術圖表文件化。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.1"
   skill-author: Clayton Young / Superior Byte Works, LLC (@borealBytes)
   skill-source: https://github.com/SuperiorByteWorks-LLC/agent-project
   skill-version: 1.0.0

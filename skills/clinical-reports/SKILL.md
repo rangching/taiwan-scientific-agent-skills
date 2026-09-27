@@ -4,10 +4,10 @@ description: Create safety-bounded draft structures and run local deterministic 
 license: MIT
 compatibility: Requires Python 3.11+ only for optional dependency-free local scripts; no network access, credentials, external models, or image services.
 metadata:
+  version: "2.1"
   description_zh: "僅產生帶標記的草稿結構（需合格人員審閱），不做診斷。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "2.1"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

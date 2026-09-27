@@ -4,10 +4,10 @@ description: Build and operate reproducible genomics workloads on DNAnexus with 
 license: MIT
 compatibility: Requires a DNAnexus account, network access, Python 3.11+, and dx-toolkit/dxpy; some workflow and infrastructure features require organization licenses or policies.
 metadata:
+  version: "2.1"
   description_zh: "DNAnexus 平台整合：基因體資料分析流程。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "2.1"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

@@ -4,10 +4,10 @@ description: Submit and manage protocols on Ginkgo Bioworks Cloud Lab (cloud.gin
 license: MIT license
 allowed-tools: Read
 metadata:
+  version: "2.1"
   description_zh: "Ginkgo 雲端實驗室：委外實驗流程介接。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "2.1"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

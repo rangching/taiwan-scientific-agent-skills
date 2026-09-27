@@ -4,10 +4,10 @@ description: Search scientific papers and retrieve structured experimental data 
 license: MIT
 compatibility: Requires the BGPT MCP server configured in the agent host (npx mcp-remote or npx bgpt-mcp), internet access to bgpt.pro, and an optional BGPT API key for paid usage.
 metadata:
+  version: "1.1"
   description_zh: "生醫論文搜尋：文獻發現輔助。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.1"
   skill-author: BGPT
   website: https://bgpt.pro/mcp
   github: https://github.com/connerlambden/bgpt-mcp

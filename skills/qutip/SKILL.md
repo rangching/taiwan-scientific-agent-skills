@@ -4,10 +4,10 @@ description: Simulate and audit closed and open quantum-system models with QuTiP
 license: MIT
 compatibility: Requires Python 3.11+, uv, and qutip==5.3.0 for executable simulations. Bundled planners and all script help run with the Python standard library; plotting requires the pinned graphics extra. No network service or credentials are used.
 metadata:
+  version: "1.2"
   description_zh: "開放量子系統模擬：量子光學與動力學。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: K-Dense Inc.
   last-reviewed: "2026-07-23"
 ---

@@ -5,10 +5,10 @@ license: Apache-2.0 license
 compatibility: TorchDrug 0.2.1 requires Python 3.7-3.10 and supports PyTorch 1.8-2.0. Apple Silicon is CPU-only; MPS is unsupported.
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "1.2"
   description_zh: "藥物發現圖深度學習：TorchDrug 分子建模。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

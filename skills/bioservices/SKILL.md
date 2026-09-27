@@ -5,10 +5,10 @@ license: GPLv3 license
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.9–3.12 and internet access to 40+ bioinformatics web APIs. NCBI BLAST requires a contact email (`NCBI_EMAIL` env var or explicit parameter).
 metadata:
+  version: "1.4"
   description_zh: "約 40 個生資 Web 服務的統一 Python 存取。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.4"
   skill-author: K-Dense Inc.
   openclaw:
     envVars:

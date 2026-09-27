@@ -5,10 +5,10 @@ license: MIT
 compatibility: Requires Python 3.11+ with numpy and scipy. No network access and no proprietary software. The estimation tools this skill orients you towards (NONMEM, Monolix, Phoenix, Simcyp, GastroPlus) are licensed separately and are never invoked by these scripts.
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "1.2"
   description_zh: "藥物動力／效能建模：NCA、族群 PK、暴露反應、劑量評估。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: K-Dense Inc.
   last-reviewed: "2026-07-27"
 ---

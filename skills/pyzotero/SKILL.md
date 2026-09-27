@@ -5,10 +5,10 @@ allowed-tools: Read Write Edit Bash
 license: MIT License
 compatibility: Requires Python 3.10+ and pyzotero 1.13+. Web API access needs a Zotero API key. Optional CLI and MCP extras require Zotero 7 with local API access enabled.
 metadata:
+  version: "1.2"
   description_zh: "Zotero 文獻庫程式化存取：書目同步整理。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: K-Dense Inc.
   openclaw:
     primaryEnv: ZOTERO_API_KEY

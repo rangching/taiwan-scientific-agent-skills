@@ -4,10 +4,10 @@ description: "Use Parallel CLI for web search, URL extraction, deep research, st
 license: MIT
 compatibility: Requires parallel-cli and internet access.
 metadata:
+  version: "1.3"
   description_zh: "Parallel Web：平行網路檢索。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.3"
   skill-author: K-Dense Inc.
   openclaw:
     primaryEnv: PARALLEL_API_KEY

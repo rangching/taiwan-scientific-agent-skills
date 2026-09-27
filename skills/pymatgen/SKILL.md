@@ -5,10 +5,10 @@ license: MIT
 compatibility: Python 3.11+ with uv. The verified snapshot uses pymatgen 2026.5.4, pymatgen-core 2026.7.16, and mp-api 0.46.4. Bundled help and planning CLIs use only the standard library; local scientific execution lazily requires the pinned pymatgen packages. Materials Project access additionally requires explicit network approval and the single named secret MP_API_KEY.
 allowed-tools: Read Write Bash Glob Python
 metadata:
+  version: "1.3"
   description_zh: "材料科學：晶體結構、相圖、計算化學。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.3"
   skill-author: "K-Dense Inc."
   last-reviewed: "2026-07-23"
 ---

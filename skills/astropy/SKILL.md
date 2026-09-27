@@ -4,10 +4,10 @@ description: Core Python library for astronomy and astrophysics workflows that n
 license: BSD-3-Clause license
 compatibility: Requires Python 3.11+ with astropy installed (uv for package installation). Some features (object name resolution, site lookups, remote FITS reads, IERS updates) need network access.
 metadata:
+  version: "1.3"
   description_zh: "天文資料分析：座標轉換、宇宙學計算。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.3"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

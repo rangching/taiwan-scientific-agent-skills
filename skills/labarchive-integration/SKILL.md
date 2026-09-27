@@ -9,10 +9,10 @@ compatibility: >-
   require Inventory API permission and a Lab ID. Bundled scripts read only named
   LABARCHIVES_* environment variables and never load .env files.
 metadata:
+  version: "1.2"
   description_zh: "LabArchives 整合：電子實驗紀錄範圍操作（寫入需授權）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

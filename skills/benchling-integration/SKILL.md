@@ -5,10 +5,10 @@ license: MIT
 allowed-tools: Read Write Edit Bash
 compatibility: Requires a Benchling account, tenant URL, and API key or OAuth app credentials. Install benchling-sdk with uv pip install.
 metadata:
+  version: "1.5"
   description_zh: "Benchling 整合：LIMS／ELN 範圍操作（寫入需明確授權）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.5"
   skill-author: K-Dense Inc.
   openclaw:
     primaryEnv: BENCHLING_API_KEY

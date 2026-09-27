@@ -4,10 +4,10 @@ description: Query the U.S. Treasury Fiscal Data REST API for federal financial 
 license: MIT
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "1.3"
   description_zh: "美國財政資料：Treasury Fiscal Data 查詢。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.3"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

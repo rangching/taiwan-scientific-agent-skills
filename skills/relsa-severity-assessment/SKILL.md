@@ -5,10 +5,10 @@ license: MIT
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python >=3.10 with numpy, pandas, and scipy; statsmodels >=0.14 for forecasting and matplotlib for figures. Tested with numpy 2.5, pandas 3.0, scipy 1.18, statsmodels 0.14.6. No network access needed.
 metadata:
+  version: "1.1"
   description_zh: "實驗動物嚴重度評分輔助：3Rs 與通報用（非處置決策）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.1"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

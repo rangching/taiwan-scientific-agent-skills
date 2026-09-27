@@ -3,8 +3,8 @@ name: imaging-data-commons
 description: Query and download public cancer imaging data from NCI Imaging Data Commons. Invoke for any question about IDC collections, cancer imaging datasets, DICOM data access, radiology (CT, MR, PET) or pathology AI training sets, metadata queries, visualization, or license checks — even when the user doesn't explicitly mention "IDC". No authentication required.
 license: This skill is provided under the MIT License. IDC data itself has individual licensing (mostly CC-BY, some CC-NC) that must be respected when using the data.
 metadata:
-  description_zh: "影像資料共享 IDC：癌症影像公開資料查詢。"
   version: "1.5"
+  description_zh: "影像資料共享 IDC：癌症影像公開資料查詢。"
   source-skill-version: 1.8.1
   skill-author: Andrey Fedorov, @fedorov
   idc-index: "0.12.5"

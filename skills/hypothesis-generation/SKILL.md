@@ -4,10 +4,10 @@ description: Formulate evidence-bounded scientific questions, candidate hypothes
 license: MIT
 compatibility: Python 3.11+ standard library. Bundled CLIs are deterministic and local-only; they accept bounded JSON, CSV, or Markdown and require no network, credentials, models, image services, or external packages.
 metadata:
+  version: "2.2"
   description_zh: "證據限定的候選假說生成，研究發想輔助。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "2.2"
   skill-author: K-Dense Inc.
   last-reviewed: "2026-07-23"
 ---

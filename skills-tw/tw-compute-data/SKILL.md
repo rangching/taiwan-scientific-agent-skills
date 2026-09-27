@@ -3,8 +3,8 @@ name: tw-compute-data
 description: Navigate Taiwan academic computing and controlled data application flow including TWCC, NCHC, campus HPC onboarding and NHIRD/human database application checklists. Process guidance only. Use for compute planning and data application preparation.
 license: MIT
 metadata:
-  description_zh: "臺灣運算與管制資料申請導引：TWCC、國網中心、校級 HPC 上機流程，健保資料庫與人體生物資料庫申請查核表，僅流程輔助。"
   version: "1.0"
+  description_zh: "臺灣運算與管制資料申請導引：TWCC、國網中心、校級 HPC 上機流程，健保資料庫與人體生物資料庫申請查核表，僅流程輔助。"
   skill-author: taiwan-scientific-agent-skills
   zh-tw-added: "2026-09-28"
 ---

@@ -4,10 +4,10 @@ description: Use when working with Outpost Bio's open microbiome foundation mode
 license: MIT
 compatibility: Requires Python 3.10+ with `waypoint-bio` (pulls torch, transformers, datasets, peft, scikit-learn). Needs network access and a Hugging Face token with access granted to the gated outpost-bio repos. A GPU is strongly recommended for pretraining and benchmarking.
 metadata:
+  version: "1.1"
   description_zh: "Waypoint Bio：特定生醫流程介接。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.1"
   skill-author: K-Dense Inc.
   upstream-version: "waypoint-bio 1.0.2 (PyPI); GitHub main 1.0.4"
   last-reviewed: "2026-08-17"

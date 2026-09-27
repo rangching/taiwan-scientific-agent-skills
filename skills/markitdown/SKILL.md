@@ -4,10 +4,10 @@ description: Convert heterogeneous documents and selected URIs to Markdown with 
 license: MIT
 compatibility: Python 3.10+ and uv. Examples target MarkItDown 0.1.6. Core local conversion can run offline; URL, YouTube, audio transcription, LLM, Azure, and MCP workflows may use network or external services.
 metadata:
+  version: "2.2"
   description_zh: "文件轉 Markdown：PDF、Office 轉可讀文字。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "2.2"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

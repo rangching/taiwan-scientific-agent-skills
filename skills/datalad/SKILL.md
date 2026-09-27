@@ -5,10 +5,10 @@ compatibility: Needs datalad 1.6.x on Python 3.10+, plus git and git-annex 10.x.
 license: MIT
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "1.0"
   description_zh: "研究資料版本控管與共享。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.0"
   skill-author: Dylan Pulver
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

@@ -5,10 +5,10 @@ license: MIT
 compatibility: Verified against PyLabRobot 0.2.1 on Python 3.9+. Bundled planning CLIs require only Python 3.11+ and make no serial, USB, or network connections. Physical devices need model-specific extras, configuration, calibration, and trained operator approval.
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "1.3"
   description_zh: "PyLabRobot：移液機器人方案撰寫與模擬（實機須受訓操作）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.3"
   skill-author: "K-Dense Inc."
   pylabrobot-version: "0.2.1"
   researched: "2026-07-23"

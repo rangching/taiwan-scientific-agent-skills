@@ -4,10 +4,10 @@ description: Use pydicom to read, inspect, write, transform, and safely prefligh
 license: MIT
 compatibility: Python 3.10+ with pydicom 3.0.2; optional pinned NumPy, Pillow, and pixel plugins. Helper CLIs are local-only and require authorized data.
 metadata:
+  version: "1.2"
   description_zh: "DICOM 醫學影像處理（隱私注意，僅研究用）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: "K-Dense Inc."
   last-reviewed: "2026-07-23"
 ---

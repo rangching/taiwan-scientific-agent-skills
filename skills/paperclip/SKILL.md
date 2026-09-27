@@ -5,10 +5,10 @@ allowed-tools: Bash Read Write
 license: MIT
 compatibility: Requires macOS or Linux with a POSIX shell and network access; the native installer does not support Windows (use the hosted MCP server there). Installs a self-contained CLI under ~/.paperclip — no Python environment of your own is needed. Authenticate with a PAPERCLIP_API_KEY exported from a .env file or the environment; browser OAuth is an interactive fallback the user must run. Verified against paperclip 0.7.14 and 0.7.15.
 metadata:
+  version: "1.3"
   description_zh: "全文文獻與法規文件檢索，引用定位到行號。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.3"
   skill-author: "K-Dense Inc."
   openclaw:
     primaryEnv: PAPERCLIP_API_KEY

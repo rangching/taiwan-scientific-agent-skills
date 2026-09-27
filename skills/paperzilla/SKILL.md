@@ -3,10 +3,10 @@ name: paperzilla
 description: Chat with your agent about projects, recommendations, and canonical papers in Paperzilla. Use when users ask for recent project recommendations, canonical paper details, markdown-based summaries, recommendation feedback, feed export, or Atom feed URLs.
 license: MIT
 metadata:
+  version: "1.0"
   description_zh: "論文搜尋與追蹤：文獻發現與監控。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.0"
   skill-author: Paperzilla Inc
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

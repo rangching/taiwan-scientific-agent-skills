@@ -5,10 +5,10 @@ license: MIT
 compatibility: Bundled CLIs require Python 3.11+ and use the standard library; HDF5/netCDF4 metadata tools lazily use h5py when available. Simulation examples target fluidsim 0.9.0, fluidfft 0.4.5, and pyFFTW 0.15.1. MPI/native FFT use requires a site-compatible MPI implementation, development headers, FFTW/PFFT/P3DFFT libraries, compilers, and an approved scheduler workflow. No GPU backend is assumed.
 allowed-tools: Read Write Bash Glob Python
 metadata:
+  version: "1.2"
   description_zh: "流體模擬：計算流體力學求解。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: "K-Dense Inc."
   last-reviewed: "2026-07-23"
 ---

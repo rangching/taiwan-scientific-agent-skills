@@ -3,8 +3,8 @@ name: umap-learn
 description: Use UMAP-learn for nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP workflows.
 license: BSD-3-Clause license
 metadata:
-  description_zh: "降維視覺化：UMAP 非線性降維。"
   version: "1.3"
+  description_zh: "降維視覺化：UMAP 非線性降維。"
   skill-author: K-Dense Inc.
 ---
 > 繁中導讀：降維視覺化：UMAP 非線性降維。詳見下方英文原文。（衍生自上游 K-Dense Scientific Agent Skills，MIT 授權，原文完整保留。）

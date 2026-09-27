@@ -4,10 +4,10 @@ description: Create publication-quality scientific diagrams using Nano Banana 2 
 allowed-tools: Read Write Edit Bash
 license: MIT license
 metadata:
+  version: "1.7"
   description_zh: "科學示意圖繪製：實驗流程圖。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.7"
   skill-author: K-Dense Inc.
   openclaw:
     primaryEnv: OPENROUTER_API_KEY

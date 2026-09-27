@@ -5,10 +5,10 @@ license: MIT
 compatibility: "Python 3.10+ with the alphagenome package (0.9.0 or later for the Atlas client; brings numpy, pandas, anndata, grpcio). Network access to gdmscience.googleapis.com:443 and a free non-commercial AlphaGenome API key in ALPHAGENOME_API_KEY (ALPHA_GENOME_API_KEY also read). Human data is GRCh38 only; mouse is mm10 (model only)."
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "1.0"
   description_zh: "AlphaGenome：變異效應查詢與序列預測（研究用）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.0"
   skill-author: K-Dense Inc.
   upstream-version: "alphagenome 0.9.0"
   last-reviewed: "2026-09-13"

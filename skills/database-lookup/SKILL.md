@@ -4,10 +4,10 @@ description: Query documented public database APIs with explicit endpoints, filt
 allowed-tools: Read Bash
 license: MIT
 metadata:
+  version: "1.6"
   description_zh: "統一查詢 78 個以上公開科學資料庫（PubChem、ChEMBL、UniProt、COSMIC 等），附出處紀錄。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.6"
   skill-author: "K-Dense Inc."
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

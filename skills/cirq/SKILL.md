@@ -4,10 +4,10 @@ description: Google quantum computing framework. Use when targeting Google Quant
 license: Apache-2.0 license
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "1.1"
   description_zh: "量子線路設計與模擬（Cirq）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.1"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

@@ -4,10 +4,10 @@ description: Rowan is a cloud-native molecular modeling and medicinal-chemistry 
 license: Proprietary (API key required)
 compatibility: Python 3.12+, API key required
 metadata:
+  version: "1.5"
   description_zh: "Rowan 計算化學：雲端量子化學模擬。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.5"
   skill-author: Rowan Science
   trigger-keywords: pKa prediction, molecular docking, conformer search, chemistry workflow, drug discovery, SMILES, protein structure, batch molecular modeling, cloud chemistry
   openclaw:

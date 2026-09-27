@@ -5,10 +5,10 @@ license: MIT
 compatibility: Requires Python 3.11+. Scripts use only the standard library - no numpy, scipy, or network access. Statistical distributions are computed from first principles so results are reproducible in any conforming interpreter.
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "1.1"
   description_zh: "分析方法確效與轉移（ICH／USP／CLSI 框架），供合格審閱。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.1"
   skill-author: K-Dense Inc.
   last-reviewed: "2026-07-27"
 ---

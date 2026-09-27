@@ -3,10 +3,10 @@ name: tiledbvcf
 description: Efficient storage and retrieval of genomic variant data using TileDB. Scalable VCF/BCF ingestion, incremental sample addition, compressed storage, parallel queries, and export capabilities for population genomics.
 license: MIT license
 metadata:
+  version: "1.1"
   description_zh: "群體規模 VCF 資料庫：增量新增樣本與高效查詢。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.1"
   skill-author: Jeremy Leipzig
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

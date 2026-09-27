@@ -9,10 +9,10 @@ compatibility: >-
   upcoming in its support matrix. Bundled local planners require Python 3.10+
   and read only named OMERO_* variables; they never load .env files.
 metadata:
+  version: "1.4"
   description_zh: "OMERO 影像管理：顯微影像儲存與研究分析。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.4"
   skill-author: K-Dense Inc.
   openclaw:
     envVars:

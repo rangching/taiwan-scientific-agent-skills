@@ -4,10 +4,10 @@ description: "Compile current scholarly evidence for a scientific manuscript or 
 license: MIT license
 compatibility: Requires network access to api.parallel.ai through parallel-cli 0.7.1+ for Search, Extract, and Research; explicit Chat uses api.parallel.ai with PARALLEL_API_KEY; optional Perplexity requests use openrouter.ai and require OPENROUTER_API_KEY.
 metadata:
+  version: "1.5"
   description_zh: "研究查詢：跨資料庫研究資訊檢索。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.5"
   skill-author: K-Dense Inc.
   openclaw:
     primaryEnv: PARALLEL_API_KEY

@@ -10,10 +10,10 @@ compatibility: >-
   network access is disabled unless --execute is supplied. The scripts never
   load .env files or execute mutations.
 metadata:
+  version: "1.2"
   description_zh: "Protocols.io 實驗方案管理與分享。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: "K-Dense Inc."
   openclaw:
     primaryEnv: PROTOCOLS_IO_ACCESS_TOKEN

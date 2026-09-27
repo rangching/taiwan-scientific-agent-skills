@@ -4,10 +4,10 @@ description: Build slide decks and presentations for research talks. Use this fo
 allowed-tools: Read Write Edit Bash
 license: MIT license
 metadata:
+  version: "1.8"
   description_zh: "學術簡報製作：投影片結構與圖表。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.8"
   skill-author: K-Dense Inc.
   openclaw:
     primaryEnv: OPENROUTER_API_KEY

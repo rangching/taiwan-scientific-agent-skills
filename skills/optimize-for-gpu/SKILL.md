@@ -4,10 +4,10 @@ description: GPU-accelerates scientific Python on NVIDIA hardware and verifies t
 license: MIT
 compatibility: Requires an NVIDIA CUDA-capable GPU for GPU execution. RAPIDS 26.06 requires Python 3.11+ on Linux or WSL2 and matching CUDA 12 or 13 wheels. Package installation needs network access.
 metadata:
+  version: "1.4"
   description_zh: "GPU 優化：科學計算加速設定。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.4"
   skill-author: K-Dense, Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

@@ -5,8 +5,8 @@ allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.10+, NumPy, and Biopython. Entrez and web BLAST examples require network access; local BLAST/MUSCLE examples require those command-line tools installed separately.
 license: Biopython License Agreement
 metadata:
-  description_zh: "序列分析：DNA／RNA／蛋白質序列、NCBI Entrez 存取。"
   version: "1.3"
+  description_zh: "序列分析：DNA／RNA／蛋白質序列、NCBI Entrez 存取。"
   skill-author: K-Dense Inc.
   openclaw:
     envVars:

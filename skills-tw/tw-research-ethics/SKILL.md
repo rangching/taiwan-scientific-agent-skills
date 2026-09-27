@@ -3,8 +3,8 @@ name: tw-research-ethics
 description: Navigate Taiwan research ethics submission flow including Human Subjects Research Act, Personal Data Protection Act, and IRB/REC review. Process guidance only, not legal advice. Use for ethics preparation checklists.
 license: MIT
 metadata:
-  description_zh: "臺灣研究倫理送審流程導引：人體研究法、個資法、IRB／REC 查核表，僅流程輔助、非法律意見。"
   version: "1.0"
+  description_zh: "臺灣研究倫理送審流程導引：人體研究法、個資法、IRB／REC 查核表，僅流程輔助、非法律意見。"
   skill-author: taiwan-scientific-agent-skills
   zh-tw-added: "2026-09-28"
 ---

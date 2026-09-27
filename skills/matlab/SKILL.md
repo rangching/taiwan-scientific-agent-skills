@@ -8,10 +8,10 @@ compatibility: >-
   without MATLAB or Octave; optional MAT inventory uses scipy and/or h5py.
 allowed-tools: Read Write Bash Glob Python
 metadata:
+  version: "1.2"
   description_zh: "MATLAB 科學計算：矩陣運算與工具箱。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: "K-Dense Inc."
   last-reviewed: "2026-07-23"
 ---

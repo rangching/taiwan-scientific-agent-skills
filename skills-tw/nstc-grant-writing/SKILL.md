@@ -3,8 +3,8 @@ name: nstc-grant-writing
 description: Draft NSTC (Taiwan National Science and Technology Council) project proposals with standard structure, budget logic, and review-response checklists. Use when writing grant proposals for Taiwan academia.
 license: MIT
 metadata:
-  description_zh: "國科會專題研究計畫書寫作輔助：標準架構、經費邏輯、審查意見回覆查核表。"
   version: "1.0"
+  description_zh: "國科會專題研究計畫書寫作輔助：標準架構、經費邏輯、審查意見回覆查核表。"
   skill-author: taiwan-scientific-agent-skills
   zh-tw-added: "2026-09-28"
 ---

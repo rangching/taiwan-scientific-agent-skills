@@ -4,10 +4,10 @@ description: Run a multi-perspective Mind Council deliberation on any question, 
 allowed-tools: Read Write
 license: MIT license
 metadata:
+  version: "1.0"
   description_zh: "多視角審議輔助：結構化討論流程。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.0"
   skill-author: AHK Strategies (ashrafkahoush-ux)
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

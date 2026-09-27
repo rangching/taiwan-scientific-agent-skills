@@ -4,10 +4,10 @@ description: Zero-shot time series forecasting with Google's TimesFM foundation 
 allowed-tools: Read Write Edit Bash
 license: Apache-2.0 license
 metadata:
+  version: "1.2"
   description_zh: "TimesFM 時間序列預測：基礎模型預報。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: Clayton Young / Superior Byte Works, LLC (@borealBytes)
   skill-version: 1.0.0
 ---

@@ -4,10 +4,10 @@ description: "Web toolkit powered by Exa, tuned for scientific and technical con
 compatibility: Requires exa-py Python SDK, an EXA_API_KEY, and internet access.
 license: MIT
 metadata:
+  version: "1.2"
   description_zh: "Exa AI 搜尋：網路與學術即時檢索。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: Exa
   website: https://exa.ai
   docs: https://exa.ai/docs

@@ -5,10 +5,10 @@ license: MIT
 compatibility: Python 3.11+; bundled CLIs use only the standard library and bounded local JSON/Markdown files, with no network access or credentials.
 allowed-tools: Read Write Bash Glob
 metadata:
+  version: "1.1"
   description_zh: "ISO 管理系統與實驗室標準的證據準備文件（非認證）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.1"
   skill-author: K-Dense Inc.
   supersedes: iso-13485-certification
   last-reviewed: "2026-07-26"

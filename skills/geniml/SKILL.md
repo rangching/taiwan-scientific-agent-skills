@@ -5,10 +5,10 @@ license: MIT
 compatibility: Requires Python 3.10+ and uv. Guidance targets geniml 0.8.4 with gtars 0.9.2; ML workflows need the pinned ml extra and compatible native wheels. Bundled planners and inspectors are dependency-free, local-only, and make no network requests.
 allowed-tools: Read Write Edit Bash Glob
 metadata:
+  version: "1.2"
   description_zh: "基因體區間機器學習：BED／BigBed 模型流程。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: "K-Dense Inc."
   upstream-version: "0.8.4"
   last-reviewed: "2026-07-23"

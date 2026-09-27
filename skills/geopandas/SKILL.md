@@ -5,10 +5,10 @@ license: MIT
 compatibility: Requires Python 3.10+ and uv. Bundled CLIs are local-only; runtime analysis requires the pinned GeoPandas stack below.
 allowed-tools: Read Write Bash Glob Grep
 metadata:
+  version: "1.2"
   description_zh: "地理空間分析：向量圖資、空間統計。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: K-Dense Inc.
   last-reviewed: "2026-07-23"
 ---

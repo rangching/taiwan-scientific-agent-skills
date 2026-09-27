@@ -5,10 +5,10 @@ license: MIT
 compatibility: Requires Python 3.9+ and network access to openrouter.ai. The bundled script uses only the standard library. Image generation requires the OPENROUTER_API_KEY credential and bills per request; listing models, inspecting a model, and --dry-run do not. Targets the OpenRouter Image API (POST /api/v1/images) as verified on 2026-07-31.
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "3.1"
   description_zh: "AI 圖像生成：研究示意圖產製。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "3.1"
   skill-author: K-Dense Inc.
   last-reviewed: "2026-07-31"
   openclaw:

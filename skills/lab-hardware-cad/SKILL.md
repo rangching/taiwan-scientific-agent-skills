@@ -5,10 +5,10 @@ license: MIT
 compatibility: Python 3.10-3.14 with build123d 0.11.1 and matplotlib for snapshots. Geometry commands require build123d; the standards lookup and the interface check run on the standard library alone. No network access needed.
 allowed-tools: Read Write Edit Bash Glob Grep
 metadata:
+  version: "1.3"
   description_zh: "實驗硬體 CAD：開放硬體設計流程。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.3"
   skill-author: K-Dense Inc.
   last-reviewed: "2026-08-15"
   build123d-version: "0.11.1"

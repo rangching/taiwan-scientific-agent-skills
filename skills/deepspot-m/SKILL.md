@@ -5,10 +5,10 @@ license: PolyForm-Noncommercial-1.0.0
 compatibility: Needs deepspotm 1.0.0 from PyPI (Python 3.10 to 3.13) plus PyTorch. Weights at ratschlab/DeepSpotM on Hugging Face are gated and licensed CC-BY-NC-SA-4.0, so request access on the model page and then run huggingface-cli login. A CUDA GPU speeds up batched inference.
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "1.0"
   description_zh: "單分子定位顯微：DeepSpot 斑點偵測。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.0"
   skill-author: Ratschlab, ETH Zurich
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

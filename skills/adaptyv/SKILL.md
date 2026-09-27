@@ -4,10 +4,10 @@ description: "How to use the Adaptyv Bio Foundry API and Python SDK for protein 
 license: MIT
 compatibility: Requires Python 3.10+, an Adaptyv Foundry account, and an API key from foundry.adaptyvbio.com. Install adaptyv-sdk from GitHub with uv pip install.
 metadata:
+  version: "1.3"
   description_zh: "蛋白質 AI 實驗驗證：Adaptyv 雲端實驗介接。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.3"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

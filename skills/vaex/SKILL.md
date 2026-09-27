@@ -4,10 +4,10 @@ description: Use this skill for processing and analyzing large tabular datasets 
 allowed-tools: Read Write Edit Bash Grep Glob
 license: MIT license
 metadata:
+  version: "1.1"
   description_zh: "超大型表格資料視覺化與處理（out-of-core）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.1"
   skill-author: K-Dense Inc.
 compatibility: Requires Python 3.10+ (3.12+ recommended with vaex 4.19.0). Install with uv pip install vaex. Optional s3fs/gcsfs/adlfs for cloud I/O.
 ---

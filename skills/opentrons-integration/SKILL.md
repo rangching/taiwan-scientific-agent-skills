@@ -5,10 +5,10 @@ license: MIT
 compatibility: Requires Python 3.10+ and uv for local simulation. Flex examples target opentrons 9.1.1 and API 2.29; the separate OT-2 line targets API 2.28 and uses opentrons 9.0.0 as its local compatibility simulator. Physical execution requires compatible hardware, current robot software, and the appropriate Opentrons App.
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "2.1"
   description_zh: "Opentrons 移液機器人方案撰寫與模擬（實機須受訓人員操作）。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "2.1"
   skill-author: "K-Dense Inc."
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。

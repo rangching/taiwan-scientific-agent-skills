@@ -5,10 +5,10 @@ license: BSD-3-Clause
 compatibility: Requires Python 3.10+ with openpiv installed (uv pip install openpiv). numpy, scipy, scikit-image, and matplotlib arrive as dependencies. No network access needed after install.
 allowed-tools: Read Write Edit Bash
 metadata:
+  version: "1.1"
   description_zh: "粒子影像測速：流場向量分析。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.1"
   skill-author: OpenPIV Team
   tested-against: "openpiv 0.25.4"
 ---

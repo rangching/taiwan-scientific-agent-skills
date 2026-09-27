@@ -4,10 +4,10 @@ description: Autonomously improve a real artifact (code, training recipe, agent 
 allowed-tools: Read Write Edit Bash Agent
 license: MIT license
 metadata:
+  version: "1.2"
   description_zh: "多房室神經元模擬：Arbor 高效能模擬。"
   zh-tw-added: "2026-09-28"
   upstream: K-Dense-AI/scientific-agent-skills
-  version: "1.2"
   skill-author: K-Dense Inc.
 ---
 > 本 skill 衍生自上游 K-Dense Scientific Agent Skills（MIT 授權），英文原文完整保留在下方，繁中導讀僅為使用輔助。
