@@ -13,6 +13,25 @@
 * 其中 `docx`、`pdf`、`pptx`、`xlsx` 四個 skills 系借用 Anthropic 作品，各目錄內 `LICENSE.txt` 保持原樣。
 * 本庫改作與臺灣新增內容同樣以 MIT 釋出。
 
+## 版本對照 Version mapping
+
+本庫各 release 對應的上游快照（upstream snapshot）：
+
+| 本庫版本 | 上游版本 | 上游 commit | 上游日期 | 本次內容 |
+| --- | --- | --- | --- | --- |
+| v0.1.0-zh-Hant | v2.69.0 | `49c6e97` | 2026-09-21 | 骨架＋26 skills＋台灣新增 3 |
+| v0.2.0-zh-Hant | v2.69.0 | `49c6e97` | 2026-09-21 | ＋30（累計 56） |
+| v0.3.0-zh-Hant | v2.69.0 | `49c6e97` | 2026-09-21 | ＋30（累計 86） |
+| v0.4.0-zh-Hant | v2.69.0 | `49c6e97` | 2026-09-21 | ＋30（累計 116） |
+| v1.0.0-zh-Hant | v2.69.0 | `49c6e97` | 2026-09-21 | ＋50（166 全量） |
+| v1.1.0-zh-Hant | v2.69.0 | `49c6e97` | 2026-09-21 | 完整 CI＋`description_zh` 遷入 metadata＋台灣第 4 skill |
+
+* 各 skill 的 `metadata` 內有 `upstream: K-Dense-AI/scientific-agent-skills` 來源標記
+ （`what-if-oracle` 因上游原有同名欄位，改記為 `zh-tw-upstream`），
+  對照上表 commit 即可還原當時的上游原文。
+* 上游更新頻繁，本庫按 `docs/上游同步.md` 每月同步一次；同步後此表會新增一列。
+* 上游 repo：https://github.com/K-Dense-AI/scientific-agent-skills
+
 ## 內容 Contents（v1.1.0：上游 166 全量＋台灣新增 4＋完整 CI）
 
 * `skills/`：上游 166 個全數收錄（完整複製＋繁中導讀＋`metadata.description_zh`）。
